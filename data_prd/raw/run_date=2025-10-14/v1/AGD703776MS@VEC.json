@@ -1,0 +1,221 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "agl",
+    "planId": "AGD703776MS@VEC",
+    "fuelType": "GAS",
+    "brandName": "AGL",
+    "geography": {
+      "distributors": [
+        "AusNet Services (gas)"
+      ],
+      "includedPostcodes": [
+        "3249",
+        "3250",
+        "3266",
+        "3277",
+        "3280",
+        "3282",
+        "3300",
+        "3305",
+        "3340",
+        "3342",
+        "3350",
+        "3351",
+        "3352",
+        "3355",
+        "3356",
+        "3357",
+        "3358",
+        "3401",
+        "3430",
+        "3437",
+        "3444",
+        "3450",
+        "3451",
+        "3460",
+        "3461",
+        "3462",
+        "3464",
+        "3465",
+        "3550",
+        "3551",
+        "3555",
+        "3556"
+      ]
+    },
+    "displayName": "Business Smart Saver - 3rd Party",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "8.18",
+          "description": "Fee may be charged when reconnecting or reading your meter when you move into a property or change retailer. Includes GST. Fees may vary.\nAdditional fees and charges may apply. Please see the AGL fee schedules at agl.com.au/fees"
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "8.18",
+          "description": "Fee may be charged when disconnecting or reading your meter when you move out of a property or change retailer. Includes GST. Fees may vary."
+        },
+        {
+          "rate": "0.0054",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "The amount is GST inclusive and applies to card payments made at Australia Post outlets"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "1.75",
+          "description": "A paper bill fee may apply for each bill sent by post. Includes GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "3.30",
+          "description": "An over the counter payment fee may apply for payments made in-person at a Post Office. Includes GST."
+        },
+        {
+          "rate": "0.0015",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "The amount is GST inclusive and applies to payments made by Visa debit cards."
+        },
+        {
+          "rate": "0.0065",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "The amount is GST inclusive and applies to payments made by Visa credit cards."
+        },
+        {
+          "rate": "0.0075",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "The amount is GST inclusive and applies to payments made by Mastercard credit cards. Please note, the fee is changing from 0.77% to 0.75% effective 1st August 2025."
+        },
+        {
+          "rate": "0.0032",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "The amount is GST inclusive and applies to payments made by Mastercard debit cards."
+        }
+      ],
+      "terms": "Offer only available in areas where AGL operates. For further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au",
+      "isFixed": false,
+      "variation": "This plan also includes variable rates, retail fees and charges, which can change at any time with notice to you. If we vary your rates, we will give you at least 5 business days prior notice of the variation. Other charges may be varied with notice",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "Offer applies to customers with an applicable network tariff. Offer available to customers by signing up with an authorised AGL representative"
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "05-31",
+          "startDate": "01-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 6000,
+                "unitPrice": "0.02632"
+              },
+              {
+                "volume": 6000,
+                "unitPrice": "0.02623"
+              },
+              {
+                "volume": 72000,
+                "unitPrice": "0.02417"
+              },
+              {
+                "unitPrice": "0.02079"
+              }
+            ],
+            "period": "P2M",
+            "displayName": "Rate"
+          },
+          "displayName": "Off Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.95493",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 6000,
+                "unitPrice": "0.02764"
+              },
+              {
+                "volume": 6000,
+                "unitPrice": "0.0264"
+              },
+              {
+                "volume": 72000,
+                "unitPrice": "0.02505"
+              },
+              {
+                "unitPrice": "0.02094"
+              }
+            ],
+            "period": "P2M",
+            "displayName": "Rate"
+          },
+          "displayName": "Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.95493",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "12-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 6000,
+                "unitPrice": "0.02632"
+              },
+              {
+                "volume": 6000,
+                "unitPrice": "0.02623"
+              },
+              {
+                "volume": 72000,
+                "unitPrice": "0.02417"
+              },
+              {
+                "unitPrice": "0.02079"
+              }
+            ],
+            "period": "P2M",
+            "displayName": "Rate"
+          },
+          "displayName": "Off peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.95493",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your market contract is ongoing. From time to time, AGL reviews its offers and this offer will be reviewed with consideration to AGL’s generally available market offers"
+    },
+    "lastUpdated": "2025-08-31T21:53:55Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-09-03T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGD703776MS@VEC"
+  }
+}

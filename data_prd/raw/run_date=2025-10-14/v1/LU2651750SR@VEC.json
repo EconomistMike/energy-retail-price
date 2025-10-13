@@ -1,0 +1,128 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "lumo",
+    "planId": "LU2651750SR@VEC",
+    "fuelType": "GAS",
+    "brandName": "Lumo Energy",
+    "geography": {
+      "distributors": [
+        "Multinet"
+      ],
+      "includedPostcodes": [
+        "3008",
+        "3150",
+        "3152",
+        "3156",
+        "3158",
+        "3160",
+        "3161",
+        "3162",
+        "3163",
+        "3165",
+        "3166",
+        "3167",
+        "3168",
+        "3169",
+        "3170",
+        "3171",
+        "3172",
+        "3173",
+        "3174",
+        "3175",
+        "3177",
+        "3178",
+        "3179",
+        "3180",
+        "3182",
+        "3183",
+        "3184",
+        "3185",
+        "3186",
+        "3187",
+        "3188",
+        "3189",
+        "3190",
+        "3191",
+        "3192",
+        "3193",
+        "3194",
+        "3195",
+        "3196",
+        "3197",
+        "3202",
+        "3204",
+        "3205",
+        "3206",
+        "3207",
+        "3785",
+        "3786",
+        "3802"
+      ]
+    },
+    "displayName": "Standing Offer",
+    "gasContract": {
+      "terms": "Please visit www.lumoenergy.com.au/terms for full T&Cs applicable to this offer.",
+      "isFixed": false,
+      "variation": "We may vary our rates no more than once per 6 months. We will publish any variation in a newspaper and on our website at least 10 business days before it starts. We also notify you of the variation by no later than your next bill.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This offer is available to residential customers currently within the Multinet Metro (South) distribution zone. For more information contact 1300 115 866."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "04-30",
+          "startDate": "11-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.0372"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Summer",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.92",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "10-31",
+          "startDate": "05-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.0372"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Winter",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.92",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+    },
+    "lastUpdated": "2025-06-09T22:21:25Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-06-30T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2651750SR@VEC"
+  }
+}

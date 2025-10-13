@@ -1,0 +1,400 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "alinta",
+    "planId": "ALI1008552MRE1@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Alinta Energy",
+    "geography": {
+      "distributors": [
+        "Endeavour"
+      ],
+      "includedPostcodes": [
+        "2113",
+        "2114",
+        "2115",
+        "2116",
+        "2117",
+        "2118",
+        "2119",
+        "2120",
+        "2121",
+        "2122",
+        "2125",
+        "2126",
+        "2142",
+        "2145",
+        "2146",
+        "2147",
+        "2148",
+        "2150",
+        "2151",
+        "2152",
+        "2153",
+        "2154",
+        "2155",
+        "2156",
+        "2157",
+        "2158",
+        "2159",
+        "2160",
+        "2161",
+        "2162",
+        "2163",
+        "2164",
+        "2165",
+        "2166",
+        "2167",
+        "2168",
+        "2170",
+        "2171",
+        "2172",
+        "2173",
+        "2174",
+        "2175",
+        "2176",
+        "2177",
+        "2178",
+        "2179",
+        "2198",
+        "2200",
+        "2213",
+        "2214",
+        "2233",
+        "2250",
+        "2257",
+        "2283",
+        "2304",
+        "2323",
+        "2325",
+        "2328",
+        "2329",
+        "2330",
+        "2500",
+        "2502",
+        "2505",
+        "2506",
+        "2508",
+        "2515",
+        "2516",
+        "2517",
+        "2518",
+        "2519",
+        "2525",
+        "2526",
+        "2527",
+        "2528",
+        "2529",
+        "2530",
+        "2533",
+        "2534",
+        "2535",
+        "2536",
+        "2538",
+        "2539",
+        "2540",
+        "2541",
+        "2555",
+        "2556",
+        "2557",
+        "2558",
+        "2559",
+        "2560",
+        "2563",
+        "2564",
+        "2565",
+        "2566",
+        "2567",
+        "2568",
+        "2569",
+        "2570",
+        "2571",
+        "2572",
+        "2573",
+        "2574",
+        "2575",
+        "2576",
+        "2577",
+        "2578",
+        "2579",
+        "2580",
+        "2622",
+        "2745",
+        "2747",
+        "2748",
+        "2749",
+        "2750",
+        "2751",
+        "2752",
+        "2753",
+        "2754",
+        "2756",
+        "2757",
+        "2758",
+        "2759",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2765",
+        "2766",
+        "2767",
+        "2768",
+        "2769",
+        "2770",
+        "2773",
+        "2774",
+        "2775",
+        "2776",
+        "2777",
+        "2778",
+        "2779",
+        "2780",
+        "2782",
+        "2783",
+        "2784",
+        "2785",
+        "2786",
+        "2787",
+        "2790",
+        "2795",
+        "2800",
+        "2845",
+        "2846",
+        "2847",
+        "2848",
+        "2849",
+        "2850"
+      ]
+    },
+    "displayName": "HomeDeal Extra - Time of Use + CL",
+    "lastUpdated": "2025-10-02T14:05:58.139Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-10-03T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "126.29",
+          "description": "Disconnection fee. Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "126.29",
+          "description": "Reconnection (Power Off - Re-Energisation Required). Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.69",
+          "description": "Move-in (Power on). Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "63.69",
+          "description": "Move-out (Final Read). Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "357.81",
+          "description": "After-hours Reconnection (Power Off). Fee may vary, please see additional fee information."
+        }
+      ],
+      "terms": "This offer is only available to customers with an applicable network tariff. Eligibility criteria apply, for terms and conditions see alintaenergy.com.au/termsandconditions or call 13 37 02.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "Alinta Energy's market tariff and feed in tariffs (where applicable) may be varied in accordance with applicable laws. If we change the applicable tariff, we will give you notice of any variations in accordance with applicable laws.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "New or moving customers who sign-up online only. Bonus credit applied on 1st bill provided you're still on this Energy Plan at that time. Credits can't be transferred/exchanged or paid out. Bonus credits limited to 1 per account in any 12-month period.",
+          "displayName": "$50 (Incl GST) Bonus Credit"
+        }
+      ],
+      "meterTypes": [
+        "Type 4",
+        "Type 4a",
+        "Type 5"
+      ],
+      "pricingModel": "TIME_OF_USE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "displayName": "General Usage",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.3713",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "13:00"
+                }
+              ],
+              "description": "1pm-8pm, Mon-Fri",
+              "displayName": "Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.2916",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "06:59",
+                  "startTime": "22:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "23:59",
+                  "startTime": "00:00"
+                }
+              ],
+              "description": "All other times",
+              "displayName": "Off-peak"
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.3038",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "12:59",
+                  "startTime": "07:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "21:59",
+                  "startTime": "20:00"
+                }
+              ],
+              "description": "7am-1pm and 8pm-10pm Mon-Fri",
+              "displayName": "Shoulder consumption"
+            }
+          ],
+          "dailySupplyCharge": "1.0722",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "PAPER_BILL",
+        "BPAY",
+        "OTHER"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.1968",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D",
+            "description": "CL1",
+            "displayName": "Single Rate Controlled Load",
+            "dailySupplyCharge": "0.00"
+          },
+          "displayName": "Controlled load",
+          "rateBlockUType": "singleRate"
+        },
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.1968",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D",
+            "description": "CL2",
+            "displayName": "Single Rate Controlled Load",
+            "dailySupplyCharge": "0.00"
+          },
+          "displayName": "Controlled load",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "payerType": "RETAILER",
+          "description": "Retailer FiT (ex GST)",
+          "displayName": "Single Rate Solar FiT",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.05",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        }
+      ],
+      "additionalFeeInformation": "We reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges for work undertaken by your Distributor or Metering Provider are outlined at www.alintaenergy.com.au/feesandcharges"
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI1008552MRE1@EME"
+  }
+}

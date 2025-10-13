@@ -1,0 +1,248 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "globird",
+    "planId": "GLO676794SS@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "GloBird Energy",
+    "geography": {
+      "distributors": [
+        "Citipower"
+      ],
+      "includedPostcodes": [
+        "3000",
+        "3002",
+        "3003",
+        "3004",
+        "3005",
+        "3006",
+        "3008",
+        "3010",
+        "3011",
+        "3031",
+        "3051",
+        "3052",
+        "3053",
+        "3054",
+        "3055",
+        "3056",
+        "3057",
+        "3065",
+        "3066",
+        "3067",
+        "3068",
+        "3070",
+        "3071",
+        "3078",
+        "3101",
+        "3102",
+        "3103",
+        "3104",
+        "3121",
+        "3122",
+        "3123",
+        "3124",
+        "3125",
+        "3126",
+        "3127",
+        "3129",
+        "3141",
+        "3142",
+        "3143",
+        "3144",
+        "3161",
+        "3181",
+        "3182",
+        "3183",
+        "3205",
+        "3206",
+        "3207"
+      ]
+    },
+    "displayName": "GloBird  STANDING OFFER Small Business (Flat Rate  With Controlled Load)-Citipower",
+    "effectiveTo": "2026-06-29T14:00:00Z",
+    "lastUpdated": "2025-06-30T21:41:51Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-06-30T14:00:00Z",
+    "electricityContract": {
+      "terms": "For further information about this offer call GloBird on 133456 or visit www.globirdenergy.com.au or see our full terms and conditions here: www.globirdenergy.com.au/legal/.",
+      "isFixed": true,
+      "timeZone": "LOCAL",
+      "variation": "",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Local call center and no credit card processing fees",
+          "displayName": "Local call center and no credit card processing fees",
+          "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This product is only available to Victorian customers in the Citipower distribution area."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.241545"
+              }
+            ],
+            "period": "P1M",
+            "description": "Anytime",
+            "displayName": "Peak"
+          },
+          "displayName": "01/07/2025-30/06/2026",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.315364",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.182909"
+              }
+            ],
+            "description": "Time switch controlled hot water services, space heaters and other dedicated loads",
+            "displayName": "Controlled Load"
+          },
+          "displayName": "Controlled Load",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "solarFeedInTariff": [
+        {
+          "scheme": "VARIABLE",
+          "payerType": "RETAILER",
+          "description": "We pay 0",
+          "displayName": "Variable FIT policy",
+          "tariffUType": "timeVaryingTariffs",
+          "timeVaryingTariffs": [
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.0000001"
+                }
+              ],
+              "period": "P1D",
+              "displayName": "Shoulder",
+              "timeVariations": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "00:00",
+                  "startTime": "21:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "10:00",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "16:00",
+                  "startTime": "14:00"
+                }
+              ]
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.0000001"
+                }
+              ],
+              "period": "P1D",
+              "displayName": "Off-Peak",
+              "timeVariations": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "14:00",
+                  "startTime": "10:00"
+                }
+              ]
+            },
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.0000001"
+                }
+              ],
+              "period": "P1D",
+              "displayName": "Peak",
+              "timeVariations": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:00",
+                  "startTime": "16:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "onExpiryDescription": "The standing offer contract continues without a fixed end date."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO676794SS@VEC"
+  }
+}

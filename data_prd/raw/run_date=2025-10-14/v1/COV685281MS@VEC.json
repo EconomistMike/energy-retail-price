@@ -1,0 +1,302 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "covau",
+    "planId": "COV685281MS@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "CovaU",
+    "geography": {
+      "distributors": [
+        "Jemena"
+      ],
+      "includedPostcodes": [
+        "3011",
+        "3012",
+        "3013",
+        "3015",
+        "3016",
+        "3019",
+        "3020",
+        "3023",
+        "3025",
+        "3031",
+        "3032",
+        "3033",
+        "3034",
+        "3036",
+        "3037",
+        "3038",
+        "3039",
+        "3040",
+        "3041",
+        "3042",
+        "3043",
+        "3044",
+        "3045",
+        "3046",
+        "3047",
+        "3048",
+        "3049",
+        "3051",
+        "3052",
+        "3058",
+        "3059",
+        "3060",
+        "3061",
+        "3062",
+        "3063",
+        "3064",
+        "3068",
+        "3070",
+        "3072",
+        "3073",
+        "3074",
+        "3076",
+        "3078",
+        "3079",
+        "3081",
+        "3083",
+        "3084",
+        "3085",
+        "3086",
+        "3087",
+        "3335",
+        "3336",
+        "3337",
+        "3340",
+        "3427",
+        "3428",
+        "3429",
+        "3430",
+        "3431",
+        "3437",
+        "3750",
+        "3753"
+      ]
+    },
+    "displayName": "Super Saver Business TOU 5 Day Demand",
+    "lastUpdated": "2025-07-24T04:07:24Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-31T14:00:00Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.27",
+          "description": "$64.27 (inc. GST) Special Meter Read fee. This fee is passed through from your distributor and may vary.\nYou must pay us any fees your distributor passes through to us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional fees that may apply, please visit www.covau.com.au/additionalfees"
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "95.65",
+          "description": "$95.64 (inc. GST) fee may apply when your property is disconnected. This fee is passed through from your distributor and may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.69",
+          "description": "$66.69 (inc. GST) fee may apply when your property is reconnected. This fee is passed through from your distributor and may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "2.75",
+          "description": "$2.75 (inc. GST) Direct Credit or Debit dishonour payment fee"
+        },
+        {
+          "rate": "0.0073",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.73% (inc. GST) fee applies to payments made by debit and credit cards"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "1.75",
+          "description": "$1.75 (inc. GST) Paper Bill Fee."
+        }
+      ],
+      "terms": "See our full terms and conditions to www.covau.com.au for details.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "We may vary your rates in line with our Terms and Conditions at any time by written notice to you. Notice will be given at least 5 business days prior to the variation.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "Available to Business customers in the applicable network area with applicable metering system configuration. For more details about the eligibility criteria and solar feed-in eligibility, please contact CovaU on 1300 689 866."
+        }
+      ],
+      "pricingModel": "TIME_OF_USE",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "displayName": "Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.317"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "23:00",
+                  "startTime": "07:00"
+                }
+              ],
+              "displayName": "Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.208"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "07:00",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "00:00",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "00:00",
+                  "startTime": "23:00"
+                }
+              ],
+              "displayName": "Off Peak"
+            }
+          ],
+          "dailySupplyCharge": "2.679",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "displayName": "Demand period",
+          "demandCharges": [
+            {
+              "days": [
+                "MON",
+                "TUE",
+                "WED",
+                "THU",
+                "FRI",
+                "SAT",
+                "SUN"
+              ],
+              "amount": "0.2158",
+              "endTime": "00:00",
+              "startTime": "00:00",
+              "description": "Peak Demand",
+              "displayName": "Demand",
+              "chargePeriod": "DAY",
+              "measurementPeriod": "DAY"
+            }
+          ],
+          "rateBlockUType": "demandCharges"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0138",
+              "percentGreen": "0.25"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For an extra 1.375c /kWh inc. GST 25% of your usage will come from GreenPower Providers. No discount will apply to the GreenPower component.",
+          "displayName": "GreenPower 25"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0275",
+              "percentGreen": "0.5"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For an extra 2.75c /kWh inc. GST 50% of your usage will come from GreenPower Providers. No discount will apply to the GreenPower component.",
+          "displayName": "GreenPower 50"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.055",
+              "percentGreen": "1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For an extra 5.5c /kWh inc. GST 100% of your usage will come from GreenPower Providers. No discount will apply to the GreenPower component.",
+          "displayName": "GreenPower 100"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "Feed In Tariff",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.049"
+              }
+            ]
+          }
+        }
+      ],
+      "onExpiryDescription": "The agreement continues until terminated by you or us in accordance with our Market Retail Terms & Conditions"
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV685281MS@VEC"
+  }
+}

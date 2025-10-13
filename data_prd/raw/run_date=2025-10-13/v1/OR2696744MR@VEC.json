@@ -1,0 +1,316 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "origin",
+    "planId": "OR2696744MR@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Origin Energy",
+    "geography": {
+      "distributors": [
+        "Citipower"
+      ],
+      "includedPostcodes": [
+        "3000",
+        "3002",
+        "3003",
+        "3004",
+        "3005",
+        "3006",
+        "3008",
+        "3010",
+        "3011",
+        "3031",
+        "3051",
+        "3052",
+        "3053",
+        "3054",
+        "3055",
+        "3056",
+        "3057",
+        "3065",
+        "3066",
+        "3067",
+        "3068",
+        "3070",
+        "3071",
+        "3078",
+        "3101",
+        "3102",
+        "3103",
+        "3104",
+        "3121",
+        "3122",
+        "3123",
+        "3124",
+        "3125",
+        "3126",
+        "3127",
+        "3129",
+        "3141",
+        "3142",
+        "3143",
+        "3144",
+        "3161",
+        "3181",
+        "3182",
+        "3183",
+        "3205",
+        "3206",
+        "3207"
+      ]
+    },
+    "displayName": "Origin Solar Boost (2 Period TOU with Dedicated Circuit)",
+    "lastUpdated": "2025-08-14T02:52:37Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-08-12T14:00:00Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "49.32",
+          "description": "A $49.32 (GST Incl) fee may apply when your property is disconnected (including when you move). This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nYou must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply see www.originenergy.com.au/2402/Additional-charges"
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "48.60",
+          "description": "A $48.60 (GST Incl) fee may apply when your property is reconnected (including when you move). This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+        },
+        {
+          "rate": "0.0027",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.27% fee (GST Incl) may apply to payments made by VISA debit card."
+        },
+        {
+          "term": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.70",
+          "description": "If you pay at an Australia Post outlet, a payment processing fee of the higher of $2.70 or 0.49% (incl GST) may apply."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "2.15",
+          "description": "$2.15 (incl GST) applies for each paper bill."
+        },
+        {
+          "rate": "0.0065",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.65% fee (GST Incl) may apply to payments made by VISA credit card."
+        },
+        {
+          "rate": "0.0033",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.33% fee (GST Incl) may apply to payments made by Mastercard debit card."
+        },
+        {
+          "rate": "0.0067",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.67% fee (GST Incl) may apply to payments made by Mastercard credit card."
+        },
+        {
+          "rate": "0.0064",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.64% fee (GST Incl) may apply to payments made by American Express credit card."
+        }
+      ],
+      "terms": "When the Energy Plan ends, you'll receive our standard retailer feed-intariff published on our website. Not available in all areas or property types. Residential customers only. See originenergy.com.au/2889/Terms-and-conditions for more",
+      "isFixed": false,
+      "termType": "1_YEAR",
+      "timeZone": "LOCAL",
+      "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. The notice will be at least 5 business days prior to the effective date of the variation.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Solar feed-in tariffs",
+          "displayName": "Solar feed-in tariffs",
+          "eligibility": "Origin offers 5 cents per kWh until a daily export limit of 8 kWh is reached. The daily export limit is averaged across your billing period (calculated by multiplying the number of days in your billing period by your daily export limit of 8 kWh)."
+        },
+        {
+          "category": "OTHER",
+          "description": "Solar feed-in tariffs",
+          "displayName": "Solar feed-in tariffs",
+          "eligibility": "The Terms and Conditions for Feed-in Tariffs – Victoria applies to both additional and standard retailer feed-in tariff. When the benefit period ends you’ll receive our standard feed-in tariff available at the time as published on our website."
+        },
+        {
+          "category": "OTHER",
+          "description": "Solar feed-in tariffs",
+          "displayName": "Solar feed-in tariffs",
+          "eligibility": "Please contact us on 1300 791 468 to discuss your eligibility and available terms. Further information is also available at www.originenergy.com.au/2716/Feed-in-tariffs. All amounts are GST-inclusive (if any)."
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "To be eligible for this offer your solar PV system must be net metered and must not be receiving a government funded feed-in tariff. If you remove your solar PV system from the supply address during the benefit period the offer will continue but you won’t receive the feed-in tariff."
+        }
+      ],
+      "pricingModel": "TIME_OF_USE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "displayName": "Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.33027"
+                }
+              ],
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:00",
+                  "startTime": "15:00"
+                }
+              ],
+              "displayName": "Tariff 1"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.2005"
+                }
+              ],
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "15:00",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "00:00",
+                  "startTime": "21:00"
+                }
+              ],
+              "displayName": "Tariff 2"
+            }
+          ],
+          "dailySupplyCharge": "1.1279",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.1829"
+              }
+            ],
+            "description": "All Dedicated circuit",
+            "displayName": "Controlled Load"
+          },
+          "displayName": "Dedicated Circuit",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0113",
+              "percentGreen": "0.25"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For 1.13 cents/kWh 25% of your electricity usage is matched with electricity from Government accredited GreenPower sources",
+          "displayName": "GreenPower 25"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0225",
+              "percentGreen": "0.5"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For 2.25 cents/kWh 50% of your electricity usage is matched with electricity from Government accredited GreenPower sources",
+          "displayName": "GreenPower 50"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.045",
+              "percentGreen": "1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For 4.50 cents/kWh 100% of your electricity usage is matched with electricity from Government accredited GreenPower sources",
+          "displayName": "GreenPower 100"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "FIT",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "volume": 8,
+                "unitPrice": "0.05"
+              },
+              {
+                "unitPrice": "0.01"
+              }
+            ],
+            "period": "day"
+          }
+        }
+      ],
+      "onExpiryDescription": "We'll give you notice before your contract ends. At the end of the contract term, we will continue to sell you energy and the terms and conditions of the Standard Retail Contract will apply, unless you tell us otherwise."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/OR2696744MR@VEC"
+  }
+}

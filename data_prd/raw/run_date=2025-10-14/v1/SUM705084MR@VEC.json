@@ -1,0 +1,177 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "sumo-gas",
+    "planId": "SUM705084MR@VEC",
+    "fuelType": "GAS",
+    "brandName": "Sumo",
+    "geography": {
+      "distributors": [
+        "AusNet Services (gas)"
+      ],
+      "includedPostcodes": [
+        "3249",
+        "3250",
+        "3266",
+        "3277",
+        "3280",
+        "3282",
+        "3300",
+        "3305",
+        "3340",
+        "3342",
+        "3350",
+        "3351",
+        "3352",
+        "3355",
+        "3356",
+        "3357",
+        "3358",
+        "3377",
+        "3380",
+        "3400",
+        "3401",
+        "3430",
+        "3437",
+        "3444",
+        "3450",
+        "3451",
+        "3460",
+        "3461",
+        "3462",
+        "3464",
+        "3465",
+        "3550",
+        "3551",
+        "3555",
+        "3556"
+      ]
+    },
+    "displayName": "Sumo Daily  Gas (Ausnet Services West)",
+    "gasContract": {
+      "fees": [
+        {
+          "rate": "0.007",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Payments by credit card and debit card will incur an additional charge of 0.7% of payment made."
+        },
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "0.00",
+          "description": "We will pass through any bank fee imposed for a dishonoured payment."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "0.00",
+          "description": "We will pass through any fee imposed by your distributor. See sumo.com.au/help-and-support/rates-and-other-charges/other-fees-and-charges"
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "0.00",
+          "description": "We will pass through any fee imposed by your distributor. See sumo.com.au/help-and-support/rates-and-other-charges/other-fees-and-charges"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "3.10",
+          "description": "Paper bill fee"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "2.00",
+          "description": "Over the counter fee at Australia Post"
+        }
+      ],
+      "terms": "See sumo.com.au/help-and-support/terms-and-conditions/sumo-terms-and-conditions",
+      "isFixed": false,
+      "variation": "Prices are subject to change on 1 August each year with at least 5 business days prior notice.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "Available only to new Sumo residential customers"
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.027"
+              },
+              {
+                "volume": 200,
+                "unitPrice": "0.0252"
+              },
+              {
+                "volume": 1400,
+                "unitPrice": "0.0246"
+              },
+              {
+                "unitPrice": "0.0234"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Winter",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.984",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.0264"
+              },
+              {
+                "volume": 200,
+                "unitPrice": "0.0246"
+              },
+              {
+                "volume": 1400,
+                "unitPrice": "0.024"
+              },
+              {
+                "unitPrice": "0.0228"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Summer",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.984",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Ongoing contract"
+    },
+    "lastUpdated": "2025-08-31T21:54:12Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-08-31T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/sumo-gas/cds-au/v1/energy/plans/SUM705084MR@VEC"
+  }
+}

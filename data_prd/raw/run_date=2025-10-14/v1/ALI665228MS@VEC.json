@@ -1,0 +1,119 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "alinta",
+    "planId": "ALI665228MS@VEC",
+    "fuelType": "GAS",
+    "brandName": "Alinta Energy",
+    "geography": {
+      "distributors": [
+        "AusNet Services (gas)"
+      ],
+      "includedPostcodes": [
+        "3227"
+      ]
+    },
+    "displayName": "BusinessDeal Max Gas - Ausnet Adjoining Central",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "75.02",
+          "description": "This fee is set by your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges charged by the distributor are published on the AusNet website and may change from time to time."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "75.02",
+          "description": "Next business day reconnection fee. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+        }
+      ],
+      "terms": "Eligibility criteria apply, for terms and conditions see alintaenergy.com.au/termsandconditions or call 13 39 08.",
+      "isFixed": false,
+      "variation": "Alinta Energy's market tariff and feed in tariffs (where applicable) may be varied in accordance with applicable laws. If we change the applicable tariff, we will give you notice of any variations in accordance with applicable laws.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This Energy Plan is only available to customers with an applicable network tariff and who receive an online sign-up invitation link from Alinta Energy or participating commercial partners."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.0288"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.0285"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.0283"
+              },
+              {
+                "unitPrice": "0.0283"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.093",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.0264"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.0261"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.0257"
+              },
+              {
+                "unitPrice": "0.0255"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Off Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.093",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "This offer has no contract term."
+    },
+    "lastUpdated": "2025-06-20T03:11:38Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-01T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI665228MS@VEC"
+  }
+}

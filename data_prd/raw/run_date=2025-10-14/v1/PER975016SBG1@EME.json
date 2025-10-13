@@ -1,0 +1,220 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "perpetual",
+    "planId": "PER975016SBG1@EME",
+    "fuelType": "GAS",
+    "brandName": "Perpetual Energy",
+    "geography": {
+      "distributors": [
+        "Allgas Energy QLD"
+      ],
+      "includedPostcodes": [
+        "4068",
+        "4073",
+        "4074",
+        "4075",
+        "4076",
+        "4077",
+        "4078",
+        "4101",
+        "4102",
+        "4103",
+        "4104",
+        "4105",
+        "4106",
+        "4107",
+        "4108",
+        "4109",
+        "4110",
+        "4111",
+        "4112",
+        "4113",
+        "4114",
+        "4115",
+        "4116",
+        "4117",
+        "4118",
+        "4119",
+        "4120",
+        "4121",
+        "4122",
+        "4123",
+        "4124",
+        "4125",
+        "4127",
+        "4128",
+        "4129",
+        "4131",
+        "4132",
+        "4133",
+        "4151",
+        "4152",
+        "4153",
+        "4154",
+        "4155",
+        "4156",
+        "4157",
+        "4158",
+        "4159",
+        "4160",
+        "4161",
+        "4163",
+        "4164",
+        "4169",
+        "4170",
+        "4171",
+        "4172",
+        "4173",
+        "4174",
+        "4178",
+        "4179",
+        "4205",
+        "4207",
+        "4208",
+        "4209",
+        "4210",
+        "4211",
+        "4212",
+        "4213",
+        "4214",
+        "4215",
+        "4216",
+        "4217",
+        "4218",
+        "4220",
+        "4221",
+        "4223",
+        "4224",
+        "4225",
+        "4226",
+        "4227",
+        "4228",
+        "4280",
+        "4300",
+        "4303",
+        "4334",
+        "4350",
+        "4352",
+        "4356",
+        "4401",
+        "4718"
+      ]
+    },
+    "displayName": "Small Business Standing Offer Allgas QLD Network",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00",
+          "description": "May be charged when payment is not received by the due date indicated on your bill. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "91.726",
+          "description": "May be charged when manually connecting or reading your meter when you move into a property or change retailer. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "91.726",
+          "description": "May be charged when manually reconnecting or reading your meter when you move into a property or change retailer. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "71.643",
+          "description": "May be charged when you request a disconnection of your meter. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "71.643",
+          "description": "May be charged when you request a disconnection of your meter when moving out of the premises. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "557.403",
+          "description": "May be charged when a disconnection is arranged due to non-payment. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "2.75",
+          "description": "May be charged when a direct debit payment is dishonoured. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "0.33",
+          "description": "May be charged when payment is made via direct debit. Incl GST."
+        },
+        {
+          "rate": "0.01",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "May be charged when payment is made via debit or credit card. Incl GST."
+        },
+        {
+          "rate": "0.02",
+          "term": "PERCENT_OF_BILL",
+          "type": "OTHER",
+          "description": "May be charged when payment is made via American Express card. Incl GST."
+        }
+      ],
+      "terms": "Perpetual Energy Standing Offer to Small Business customers in Allgas QLD network.",
+      "isFixed": true,
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 1700,
+                "unitPrice": "0.059617"
+              },
+              {
+                "volume": 8300,
+                "unitPrice": "0.055713"
+              },
+              {
+                "unitPrice": "0.052587"
+              }
+            ],
+            "period": "P1D",
+            "description": "All Time",
+            "displayName": "General Supply All Time"
+          },
+          "displayName": "Single Rate Tariff Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.3895",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M",
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL",
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "OTHER",
+        "BPAY"
+      ],
+      "additionalFeeInformation": "Additional fees and charges may apply. Please see the fee schedules on our website."
+    },
+    "lastUpdated": "2025-07-07T01:19:31.688Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-07T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/perpetual/cds-au/v1/energy/plans/PER975016SBG1@EME"
+  }
+}

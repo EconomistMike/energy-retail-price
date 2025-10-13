@@ -1,0 +1,169 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "energyaustralia",
+    "planId": "TRU706272MS@VEC",
+    "fuelType": "GAS",
+    "brandName": "EnergyAustralia",
+    "geography": {
+      "distributors": [
+        "AusNet Services (gas)"
+      ],
+      "includedPostcodes": [
+        "3024",
+        "3029",
+        "3030",
+        "3211",
+        "3212",
+        "3214",
+        "3215",
+        "3216",
+        "3217",
+        "3218",
+        "3219",
+        "3220",
+        "3221",
+        "3222",
+        "3223",
+        "3224",
+        "3225",
+        "3226",
+        "3227",
+        "3228",
+        "3335",
+        "3337",
+        "3338",
+        "3427",
+        "3429",
+        "3430"
+      ]
+    },
+    "displayName": "Business 365 (T1)",
+    "gasContract": {
+      "fees": [
+        {
+          "rate": "0.0036",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+        },
+        {
+          "rate": "0.015",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "8.18",
+          "description": "Special Meter Read"
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "75.02",
+          "description": "Reconnection - Business hours"
+        }
+      ],
+      "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+      "isFixed": false,
+      "termType": "1_YEAR",
+      "discounts": [
+        {
+          "type": "GUARANTEED",
+          "category": "OTHER",
+          "description": "Discount applies to market energy charges, and not to fees and other charges such as late payment fees or GreenPower.",
+          "displayName": "Guaranteed Discount",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.2"
+          }
+        }
+      ],
+      "variation": "The rates for this plan may vary, either when we change regulated rates, or when we review our rates each year. We’ll notify you before any rate change occurs.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "The details presented in this fact sheet are for a small business customer located in the distribution area outlined with a metering configuration as described. Unless otherwise specified, 'Peak Only' is the default meter type."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.03086"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.03043"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.03021"
+              },
+              {
+                "unitPrice": "0.02988"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Winter Rates",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.515",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.03054"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.02967"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.02932"
+              },
+              {
+                "unitPrice": "0.02915"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Non-Winter Rates",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.515",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your market contract is for 12 months. We will provide you with notice of your options prior to the end of the contract term."
+    },
+    "lastUpdated": "2025-09-17T21:48:27Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-09-30T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU706272MS@VEC"
+  }
+}

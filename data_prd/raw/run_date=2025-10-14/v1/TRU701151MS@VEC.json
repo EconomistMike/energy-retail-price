@@ -1,0 +1,298 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "energyaustralia",
+    "planId": "TRU701151MS@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "EnergyAustralia",
+    "geography": {
+      "distributors": [
+        "Jemena"
+      ],
+      "includedPostcodes": [
+        "3011",
+        "3012",
+        "3013",
+        "3015",
+        "3016",
+        "3019",
+        "3020",
+        "3023",
+        "3025",
+        "3031",
+        "3032",
+        "3033",
+        "3034",
+        "3036",
+        "3037",
+        "3038",
+        "3039",
+        "3040",
+        "3041",
+        "3042",
+        "3043",
+        "3044",
+        "3045",
+        "3046",
+        "3047",
+        "3048",
+        "3049",
+        "3051",
+        "3052",
+        "3058",
+        "3059",
+        "3060",
+        "3061",
+        "3062",
+        "3063",
+        "3064",
+        "3068",
+        "3070",
+        "3072",
+        "3073",
+        "3074",
+        "3076",
+        "3078",
+        "3079",
+        "3081",
+        "3083",
+        "3084",
+        "3085",
+        "3086",
+        "3087",
+        "3335",
+        "3336",
+        "3337",
+        "3340",
+        "3427",
+        "3428",
+        "3429",
+        "3430",
+        "3431",
+        "3437",
+        "3750",
+        "3753"
+      ]
+    },
+    "displayName": "Business Rate Fix - 7 Day Time of Use Demand",
+    "lastUpdated": "2025-08-17T23:43:15Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-08-31T14:00:00Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "rate": "0.0036",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+        },
+        {
+          "rate": "0.015",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "95.65",
+          "description": ""
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.69",
+          "description": ""
+        }
+      ],
+      "terms": "Please refer to our website www.energyaustralia.com.au for eligibility on solar and for full terms and conditions.",
+      "isFixed": true,
+      "timeZone": "LOCAL",
+      "discounts": [
+        {
+          "type": "GUARANTEED",
+          "category": "OTHER",
+          "description": "Discount applies to market energy charges, and not to fees and other charges such as late payment fees or GreenPower.",
+          "displayName": "Guaranteed Discount",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.06"
+          }
+        }
+      ],
+      "variation": "",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "The details presented in this fact sheet are for a small business customer located in the distribution area outlined with a metering configuration as described. Unless otherwise specified, 'Peak Only' is the default meter type."
+        }
+      ],
+      "pricingModel": "TIME_OF_USE",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "displayName": "Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.287537"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "23:00",
+                  "startTime": "07:00"
+                }
+              ],
+              "displayName": "Tariff 1"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.202591"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "07:00",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "00:00",
+                  "startTime": "23:00"
+                }
+              ],
+              "displayName": "Tariff 2"
+            }
+          ],
+          "dailySupplyCharge": "1.26599",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "displayName": "Demand period",
+          "demandCharges": [
+            {
+              "days": [
+                "MON",
+                "TUE",
+                "WED",
+                "THU",
+                "FRI"
+              ],
+              "amount": "0.222359",
+              "endTime": "00:00",
+              "startTime": "00:00",
+              "description": "Summer Demand",
+              "displayName": "Demand",
+              "chargePeriod": "DAY",
+              "measurementPeriod": "DAY"
+            }
+          ],
+          "rateBlockUType": "demandCharges"
+        }
+      ],
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0495",
+              "percentGreen": "0.1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "PureEnergy 10% = $0.0495 x (10% x total usage)",
+          "displayName": "GreenPower 10"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0495",
+              "percentGreen": "0.25"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "PureEnergy 25% = $0.0495 x (25% x total usage)",
+          "displayName": "GreenPower 25"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0495",
+              "percentGreen": "1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "PureEnergy 100% = $0.0495 per kWh",
+          "displayName": "GreenPower 100"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "Retailer voluntary",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.015"
+              }
+            ]
+          }
+        }
+      ],
+      "onExpiryDescription": "Your market contract is ongoing. Your contract will continue until it is ended by either party."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU701151MS@VEC"
+  }
+}

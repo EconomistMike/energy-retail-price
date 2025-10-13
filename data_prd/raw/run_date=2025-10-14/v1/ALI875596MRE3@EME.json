@@ -1,0 +1,448 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "alinta",
+    "planId": "ALI875596MRE3@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Alinta Energy",
+    "geography": {
+      "distributors": [
+        "Essential Energy Standard"
+      ],
+      "includedPostcodes": [
+        "2311",
+        "2312",
+        "2320",
+        "2321",
+        "2324",
+        "2329",
+        "2337",
+        "2338",
+        "2339",
+        "2340",
+        "2341",
+        "2342",
+        "2343",
+        "2344",
+        "2345",
+        "2346",
+        "2347",
+        "2350",
+        "2352",
+        "2353",
+        "2354",
+        "2355",
+        "2356",
+        "2357",
+        "2358",
+        "2359",
+        "2360",
+        "2361",
+        "2365",
+        "2369",
+        "2370",
+        "2371",
+        "2372",
+        "2379",
+        "2380",
+        "2381",
+        "2382",
+        "2386",
+        "2387",
+        "2388",
+        "2390",
+        "2395",
+        "2396",
+        "2397",
+        "2398",
+        "2399",
+        "2400",
+        "2401",
+        "2402",
+        "2403",
+        "2404",
+        "2405",
+        "2406",
+        "2408",
+        "2409",
+        "2410",
+        "2411",
+        "2415",
+        "2420",
+        "2421",
+        "2422",
+        "2423",
+        "2424",
+        "2425",
+        "2426",
+        "2427",
+        "2428",
+        "2429",
+        "2430",
+        "2431",
+        "2439",
+        "2440",
+        "2441",
+        "2443",
+        "2444",
+        "2445",
+        "2446",
+        "2447",
+        "2448",
+        "2449",
+        "2450",
+        "2452",
+        "2453",
+        "2454",
+        "2455",
+        "2456",
+        "2460",
+        "2462",
+        "2463",
+        "2464",
+        "2465",
+        "2466",
+        "2469",
+        "2470",
+        "2471",
+        "2472",
+        "2473",
+        "2474",
+        "2475",
+        "2476",
+        "2477",
+        "2478",
+        "2479",
+        "2480",
+        "2481",
+        "2482",
+        "2483",
+        "2484",
+        "2485",
+        "2486",
+        "2487",
+        "2488",
+        "2489",
+        "2490",
+        "2536",
+        "2537",
+        "2539",
+        "2545",
+        "2546",
+        "2548",
+        "2549",
+        "2550",
+        "2551",
+        "2577",
+        "2579",
+        "2580",
+        "2581",
+        "2582",
+        "2583",
+        "2584",
+        "2585",
+        "2586",
+        "2587",
+        "2588",
+        "2590",
+        "2594",
+        "2611",
+        "2618",
+        "2619",
+        "2620",
+        "2621",
+        "2622",
+        "2623",
+        "2624",
+        "2625",
+        "2626",
+        "2627",
+        "2628",
+        "2629",
+        "2630",
+        "2631",
+        "2632",
+        "2633",
+        "2640",
+        "2641",
+        "2642",
+        "2643",
+        "2644",
+        "2645",
+        "2646",
+        "2647",
+        "2649",
+        "2650",
+        "2651",
+        "2652",
+        "2653",
+        "2655",
+        "2656",
+        "2658",
+        "2659",
+        "2660",
+        "2661",
+        "2663",
+        "2665",
+        "2666",
+        "2668",
+        "2669",
+        "2671",
+        "2672",
+        "2675",
+        "2678",
+        "2680",
+        "2681",
+        "2700",
+        "2701",
+        "2702",
+        "2703",
+        "2705",
+        "2706",
+        "2707",
+        "2710",
+        "2711",
+        "2712",
+        "2713",
+        "2714",
+        "2716",
+        "2720",
+        "2721",
+        "2722",
+        "2725",
+        "2726",
+        "2727",
+        "2729",
+        "2730",
+        "2731",
+        "2734",
+        "2787",
+        "2791",
+        "2792",
+        "2793",
+        "2794",
+        "2795",
+        "2797",
+        "2798",
+        "2799",
+        "2800",
+        "2803",
+        "2804",
+        "2805",
+        "2806",
+        "2807",
+        "2808",
+        "2809",
+        "2810",
+        "2820",
+        "2821",
+        "2823",
+        "2824",
+        "2825",
+        "2827",
+        "2828",
+        "2829",
+        "2830",
+        "2831",
+        "2832",
+        "2833",
+        "2834",
+        "2835",
+        "2839",
+        "2840",
+        "2842",
+        "2843",
+        "2844",
+        "2849",
+        "2850",
+        "2852",
+        "2864",
+        "2865",
+        "2866",
+        "2867",
+        "2868",
+        "2869",
+        "2870",
+        "2871",
+        "2873",
+        "2874",
+        "2875",
+        "2876",
+        "2877"
+      ]
+    },
+    "displayName": "SolarBalance Go - Single Rate + CL",
+    "lastUpdated": "2025-06-30T14:09:20.950Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-07-01T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "96.98",
+          "description": "Disconnection fee. Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "88.51",
+          "description": "Reconnection (Power Off - Re-Energisation Required). Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "41.34",
+          "description": "Move-in (Power on). Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "41.34",
+          "description": "Move-out (Final Read). Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "224.04",
+          "description": "After-hours Reconnection (Power Off). Fee may vary, please see additional fee information."
+        }
+      ],
+      "terms": "This offer is only available to customers with an applicable network tariff. Eligibility criteria apply, for terms and conditions see alintaenergy.com.au/termsandconditions or call 13 37 02.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "Alinta Energy's market tariff and feed in tariffs (where applicable) may be varied in accordance with applicable laws. If we change the applicable tariff, we will give you notice of any variations in accordance with applicable laws.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "This plan includes a stepped feed-in tariff, where you will receive a feed-in tariff of 10c/kWh for the first 10kW exported. For any export after that you will obtain Alinta Energys standard retailer feed-in tariff.",
+          "displayName": "Stepped FiT"
+        }
+      ],
+      "meterTypes": [
+        "Type 6"
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "description": "This plan is available to eligible residential solar customers with a Qualifying Solar System. Qualifying Solar System means a solar photovoltaic generator which has a generating capacity of no more than 10kW (or larger at our discretion).",
+          "information": "System Size"
+        }
+      ],
+      "pricingModel": "SINGLE_RATE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 10.9589,
+                "unitPrice": "0.397"
+              },
+              {
+                "volume": 8.2192,
+                "unitPrice": "0.397"
+              },
+              {
+                "unitPrice": "0.397"
+              }
+            ],
+            "period": "P1D",
+            "description": "Usage",
+            "displayName": "General"
+          },
+          "displayName": "Usage Charges",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.8228",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "PAPER_BILL",
+        "BPAY",
+        "OTHER"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.2136",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D",
+            "description": "CL1",
+            "displayName": "Single Rate Controlled Load",
+            "dailySupplyCharge": "0.00"
+          },
+          "displayName": "Controlled load",
+          "rateBlockUType": "singleRate"
+        },
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.2136",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D",
+            "description": "CL2",
+            "displayName": "Single Rate Controlled Load",
+            "dailySupplyCharge": "0.00"
+          },
+          "displayName": "Controlled load",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "payerType": "RETAILER",
+          "description": "Solar Balance FiT",
+          "displayName": "Solar Bonus FiT",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "volume": "10.00",
+                "unitPrice": "0.10",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D"
+          }
+        },
+        {
+          "scheme": "OTHER",
+          "payerType": "RETAILER",
+          "description": "Retailer FiT (ex GST)",
+          "displayName": "Single Rate Solar FiT",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.05",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        }
+      ],
+      "additionalFeeInformation": "We reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges for work undertaken by your Distributor or Metering Provider are outlined at www.alintaenergy.com.au/feesandcharges"
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI875596MRE3@EME"
+  }
+}

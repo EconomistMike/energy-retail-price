@@ -1,0 +1,253 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "covau",
+    "planId": "COV757632SRE2@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "CovaU",
+    "geography": {
+      "distributors": [
+        "Evoenergy"
+      ],
+      "includedPostcodes": [
+        "2600",
+        "2601",
+        "2602",
+        "2603",
+        "2604",
+        "2605",
+        "2606",
+        "2607",
+        "2609",
+        "2611",
+        "2612",
+        "2614",
+        "2615",
+        "2617",
+        "2618",
+        "2620",
+        "2900",
+        "2902",
+        "2903",
+        "2904",
+        "2905",
+        "2906",
+        "2911",
+        "2912",
+        "2913",
+        "2914"
+      ]
+    },
+    "displayName": "CovaU Basics Residential TOU 7 Days",
+    "lastUpdated": "2024-08-01T03:11:05.447Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2024-08-01T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "48.092",
+          "description": "$48.09 (inc. GST) Special Meter Read fee. This fee is passed through from your distributor and may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "106.15",
+          "description": "$106.15 (inc. GST) fee may apply when your property is disconnected. This fee is passed through from your distributor and may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "108.295",
+          "description": "$108.30 (inc. GST) fee may apply when your property is reconnected. This fee is passed through from your distributor and may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "2.75",
+          "description": "$2.75 (inc. GST) Direct debit or Debit dishonour payment fee"
+        }
+      ],
+      "terms": "See our full terms and conditions to www.covau.com.au for details.",
+      "isFixed": false,
+      "timeZone": "AEST",
+      "variation": "We may vary the charges of this plan (including their amount, nature and structure) at any time by giving you a notice at least 5 business days prior to the effective date of variation. All prices listed are inclusive of GST except where indicated.",
+      "meterTypes": [
+        "Type 4",
+        "Type 4a",
+        "Type 5",
+        "Type 6"
+      ],
+      "pricingModel": "TIME_OF_USE",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "displayName": "Time of Use Tariff Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.4002",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1Y",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "08:59",
+                  "startTime": "07:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "17:00"
+                }
+              ],
+              "description": "07:00 - 09:00; 17:00 - 20:00",
+              "displayName": "Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.205",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1Y",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "06:59",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "23:59",
+                  "startTime": "22:00"
+                }
+              ],
+              "description": "00:00 - 07:00; 22:00 - 24:00",
+              "displayName": "Off Peak"
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.301",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1Y",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "16:59",
+                  "startTime": "09:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:59",
+                  "startTime": "20:00"
+                }
+              ],
+              "description": "09:00 - 17:00; 20:00 - 22:00",
+              "displayName": "Shoulder"
+            }
+          ],
+          "dailySupplyCharge": "1.058",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M",
+        "P3M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "BPAY"
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "endDate": "2029-10-21",
+          "payerType": "RETAILER",
+          "startDate": "2021-12-06",
+          "description": "Feed In Tariff | All kWh/day",
+          "displayName": "Feed In Tariff: Single Rate Solar FiT",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "volume": "0.00",
+                "unitPrice": "0.055",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        }
+      ],
+      "onExpiryDescription": "This agreement continues until you or we end it.",
+      "additionalFeeInformation": "For information on additional fees, please visit our website : www.covau.com.au"
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/covau/cds-au/v1/energy/plans/COV757632SRE2@EME"
+  }
+}

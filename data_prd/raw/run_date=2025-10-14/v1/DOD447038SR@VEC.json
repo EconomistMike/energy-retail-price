@@ -1,0 +1,136 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "dodo",
+    "planId": "DOD447038SR@VEC",
+    "fuelType": "GAS",
+    "brandName": "Dodo Power & Gas",
+    "geography": {
+      "distributors": [
+        "Multinet"
+      ],
+      "includedPostcodes": [
+        "3139",
+        "3775",
+        "3797",
+        "3799"
+      ]
+    },
+    "displayName": "Residential Standing - Multinet Yarra Valley",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "19.00",
+          "description": "A reconnection fee may apply each time we request to energise  a property, or if you require a meter reading for any purpose\nOther charges that may be applicable are specified in the Additional Retail Charges schedule which can be viewed on our website at www.dodo.com/energy/terms-prices-and-regulatory-information."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "19.00",
+          "description": "A disconnection fee may apply each time we request to  de-energise a property, or if you require a meter reading for any purpose"
+        },
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "9.50",
+          "description": "A dishonoured payment fee may apply to payments we attempt that are subsequently declined."
+        }
+      ],
+      "terms": "Standing offer or Standard Retail contracts are electricity or gas contracts with terms and conditions that are prescribed by law and designed to protect your rights.  Standard Retail contracts start without you have to sign a document agreeing to terms and conditions.  See our Standard Retail terms and conditions at www.dodo.com/energy/terms-prices-and-regulatory-information..",
+      "isFixed": false,
+      "variation": "We may vary these prices no more than once every 6 months, and provide you notice of any changes at least 5 business days before the change is effective. We will publish variations on our website and in a newspaper at least 10 business days prior.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "The details presented in this Price Fact Sheet are for a Residential customer located in the Multinet gas distribution zone where Dodo Power and Gas is the designated retailer, and we are already responsible for the gas supplied to the premise."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 50,
+                "unitPrice": "0.043973"
+              },
+              {
+                "volume": 50,
+                "unitPrice": "0.038847"
+              },
+              {
+                "volume": 50,
+                "unitPrice": "0.033869"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.033212"
+              },
+              {
+                "unitPrice": "0.03267"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Peak"
+          },
+          "displayName": "Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.84416",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 50,
+                "unitPrice": "0.04199"
+              },
+              {
+                "volume": 50,
+                "unitPrice": "0.037549"
+              },
+              {
+                "volume": 50,
+                "unitPrice": "0.033249"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.032884"
+              },
+              {
+                "unitPrice": "0.032491"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Off Peak"
+          },
+          "displayName": "Off Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.84416",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Standard contracts do not expire"
+    },
+    "lastUpdated": "2023-02-27T05:41:14Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2023-04-02T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/dodo/cds-au/v1/energy/plans/DOD447038SR@VEC"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "engie",
+    "planId": "ENG1007469MRE1@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "ENGIE",
+    "geography": {
+      "distributors": [
+        "Endeavour"
+      ],
+      "includedPostcodes": [
+        "2114",
+        "2115",
+        "2116",
+        "2117",
+        "2118",
+        "2121",
+        "2122",
+        "2125",
+        "2142",
+        "2145",
+        "2146",
+        "2147",
+        "2148",
+        "2150",
+        "2151",
+        "2152",
+        "2153",
+        "2154",
+        "2155",
+        "2156",
+        "2157",
+        "2158",
+        "2160",
+        "2161",
+        "2162",
+        "2163",
+        "2164",
+        "2165",
+        "2166",
+        "2167",
+        "2168",
+        "2170",
+        "2171",
+        "2172",
+        "2173",
+        "2174",
+        "2175",
+        "2176",
+        "2177",
+        "2178",
+        "2179",
+        "2500",
+        "2502",
+        "2505",
+        "2506",
+        "2508",
+        "2515",
+        "2516",
+        "2517",
+        "2518",
+        "2519",
+        "2525",
+        "2526",
+        "2527",
+        "2528",
+        "2529",
+        "2530",
+        "2533",
+        "2534",
+        "2535",
+        "2538",
+        "2539",
+        "2540",
+        "2541",
+        "2555",
+        "2556",
+        "2557",
+        "2558",
+        "2559",
+        "2560",
+        "2563",
+        "2564",
+        "2565",
+        "2566",
+        "2567",
+        "2568",
+        "2569",
+        "2570",
+        "2571",
+        "2572",
+        "2573",
+        "2574",
+        "2575",
+        "2576",
+        "2577",
+        "2578",
+        "2579",
+        "2745",
+        "2747",
+        "2748",
+        "2749",
+        "2750",
+        "2752",
+        "2753",
+        "2754",
+        "2756",
+        "2757",
+        "2758",
+        "2759",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2765",
+        "2766",
+        "2767",
+        "2768",
+        "2769",
+        "2770",
+        "2773",
+        "2774",
+        "2775",
+        "2776",
+        "2777",
+        "2778",
+        "2779",
+        "2780",
+        "2782",
+        "2783",
+        "2784",
+        "2785",
+        "2786",
+        "2787",
+        "2790",
+        "2795",
+        "2845",
+        "2846",
+        "2847",
+        "2848",
+        "2849",
+        "2850"
+      ]
+    },
+    "displayName": "NSW -ENGIE Saver Plus Elec",
+    "lastUpdated": "2025-09-24T14:05:45.942Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-09-25T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "rate": "0.0032",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "You may be charged a 0.32% merchant service fee for paying by Visa or Mastercard (unless you pay via direct debit)"
+        },
+        {
+          "term": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "3.25",
+          "description": "You may be charged payment channel fees of $3.25 incl GST for Australia Post over the counter payments."
+        },
+        {
+          "term": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00",
+          "description": "A fee of $12 may apply for payments made after the due date (GST exempt)."
+        }
+      ],
+      "terms": "For further details on the information presented in this Plan Information Document, or for full terms and conditions, please visit www.engie.com.au or call ENGIE on 13 88 08. All time-dependent rates (eg. 4pm to 8pm) are billed in AEST. All time-dependent rates (eg. 4pm to 8pm) are billed in AEST.",
+      "isFixed": false,
+      "termType": "ONGOING",
+      "timeZone": "AEST",
+      "discounts": [
+        {
+          "type": "GUARANTEED",
+          "description": "You'll receive a 11% guaranteed discount off our electricity usage and supply charges.",
+          "displayName": "11% Guaranteed Discount",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.11"
+          }
+        }
+      ],
+      "variation": "We may vary your rates and charges at any time, including if any underlying information is incorrect, you get a new meter or your distributor changes your tariff. We'll give you advance notice of any change, which may be on your bill.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Your offer includes a one-off welcome credit of $150, on your first electricity bill, provided you have not received a welcome credit from us in the past 12 months. This credit includes GST and is not redeemable for cash.",
+          "displayName": "Once Off First Bill $150"
+        }
+      ],
+      "meterTypes": [
+        "Type 4",
+        "Type 4a"
+      ],
+      "pricingModel": "TIME_OF_USE",
+      "tariffPeriod": [
+        {
+          "endDate": "03-31",
+          "startDate": "11-01",
+          "displayName": "Summer Peak",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.5967",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "16:00"
+                }
+              ],
+              "description": "Nov - Mar, Mon - Fri, 16:00 - 20:00 (AEST)",
+              "displayName": "Summer Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.3489",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "15:59",
+                  "startTime": "20:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "23:59",
+                  "startTime": "00:00"
+                }
+              ],
+              "description": "Nov - Mar, Mon - Fri, 20:00 - 16:00; Nov - Mar, Sat - Sun (AEST)",
+              "displayName": "Summer Off Peak"
+            }
+          ],
+          "dailySupplyCharge": "1.0624",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "10-31",
+          "startDate": "04-01",
+          "displayName": "Winter Peak",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.3822",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "16:00"
+                }
+              ],
+              "description": "Apr - Oct, Mon - Fri, 16:00 - 20:00 (AEST)",
+              "displayName": "Winter Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.3489",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "15:59",
+                  "startTime": "20:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "23:59",
+                  "startTime": "00:00"
+                }
+              ],
+              "description": "Apr - Oct, Mon - Fri, 20:00 - 16:00; Apr - Oct, Sat - Sun (AEST)",
+              "displayName": "Winter Off Peak"
+            }
+          ],
+          "dailySupplyCharge": "1.0624",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "benefitPeriod": "Ongoing",
+      "billFrequency": [
+        "P3M",
+        "P1M"
+      ],
+      "paymentOption": [
+        "BPAY",
+        "CREDIT_CARD",
+        "DIRECT_DEBIT",
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "payerType": "RETAILER",
+          "description": "ENGIE Market FIT",
+          "displayName": "Single Rate Solar FiT",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.055",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        }
+      ],
+      "onExpiryDescription": "Ongoing energy plan until you or we end it. We may end this energy plan at any time by giving you 20 Business Days' notice.",
+      "additionalFeeInformation": "Additional fees may apply. For information please contact us on 13 88 08."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/engie/cds-au/v1/energy/plans/ENG1007469MRE1@EME"
+  }
+}

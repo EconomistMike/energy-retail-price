@@ -1,0 +1,142 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "globird",
+    "planId": "GLO711002MR@VEC",
+    "fuelType": "GAS",
+    "brandName": "GloBird Energy",
+    "geography": {
+      "distributors": [
+        "AusNet Services (gas)"
+      ],
+      "includedPostcodes": [
+        "3227",
+        "3331"
+      ]
+    },
+    "displayName": "GloBird  ComboGLOGREEN Residential(Adjoining Central)-AusNet Services (gas)",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "22.00",
+          "description": "For move-in customers to get a start read to establish your account, at least three business days’ notice required and meter access required. Fee does not cover unplugging a plugged gas meter."
+        },
+        {
+          "rate": "0",
+          "term": "PERCENT_OF_BILL",
+          "type": "OTHER",
+          "description": "0 Credit Card Payment Processing Fee"
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "22.00",
+          "description": "Fee for final read when you Move-Out. At least three business days’ notice required and meter access required. There is no fee if you simply switch to another retailer."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "4.00",
+          "description": "Paper Bill. If you have opted to receive a paper bill by post"
+        }
+      ],
+      "terms": "Please visit www.globirdenergy.com.au for full terms and conditions or call us on 133456. Note, step 1 is calculated by multiplying the daily allowance by the number of days in the billing period. For example, a daily allowance of 50 MJ /day and a 30-day billing period has a step 1 of 1500 MJ, or a 31-day 1550 MJ.",
+      "isFixed": false,
+      "discounts": [
+        {
+          "type": "CONDITIONAL",
+          "category": "PAY_ON_TIME",
+          "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. Further 2% when you have both an active gas and electricity account for the same premises on one account and you pay the bill by the due date, and a further 1% when you pay the bill by the due date with direct debit. The discounts apply to both the supply and consumption charges.",
+          "displayName": "Prompt Payment Discounts",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.05"
+          }
+        }
+      ],
+      "variation": "Prices are reviewed one calendar month after the effective date of the approval of your distributor’s annual network tariffs by the regulator. We'll always notify you in writing prior to any change.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Local call center and no credit card processing fees",
+          "displayName": "Local call center and no credit card processing fees",
+          "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
+        },
+        {
+          "category": "OTHER",
+          "description": "100% Carbon Offset",
+          "displayName": "100% Carbon Offset",
+          "eligibility": "100% of the carbon emissions associated with this plan will be offset so you can enjoy guilt free energy."
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This contingent plan is available to residential customers when bundled with one of GloBird's eligible electricity plans for the same premise on one account. Other conditions apply - call 133456 to check if you are eligible."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.038"
+              },
+              {
+                "unitPrice": "0.035"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Gas Usage Winter",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.98",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.038"
+              },
+              {
+                "unitPrice": "0.035"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Gas Usage Summer",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.98",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discounts, prices or rates."
+    },
+    "lastUpdated": "2025-10-08T21:37:04Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-10-09T13:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO711002MR@VEC"
+  }
+}

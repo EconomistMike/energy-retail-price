@@ -1,0 +1,315 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "ovo-energy",
+    "planId": "OVO706026MR@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "OVO Energy",
+    "geography": {
+      "distributors": [
+        "United Energy"
+      ],
+      "includedPostcodes": [
+        "3104",
+        "3105",
+        "3106",
+        "3107",
+        "3108",
+        "3109",
+        "3111",
+        "3114",
+        "3122",
+        "3123",
+        "3124",
+        "3125",
+        "3127",
+        "3128",
+        "3129",
+        "3130",
+        "3131",
+        "3132",
+        "3133",
+        "3144",
+        "3145",
+        "3146",
+        "3147",
+        "3148",
+        "3149",
+        "3150",
+        "3151",
+        "3152",
+        "3161",
+        "3162",
+        "3163",
+        "3165",
+        "3166",
+        "3167",
+        "3168",
+        "3169",
+        "3170",
+        "3171",
+        "3172",
+        "3173",
+        "3174",
+        "3175",
+        "3177",
+        "3178",
+        "3179",
+        "3182",
+        "3183",
+        "3184",
+        "3185",
+        "3186",
+        "3187",
+        "3188",
+        "3189",
+        "3190",
+        "3191",
+        "3192",
+        "3193",
+        "3194",
+        "3195",
+        "3196",
+        "3197",
+        "3198",
+        "3199",
+        "3200",
+        "3201",
+        "3202",
+        "3204",
+        "3800",
+        "3802",
+        "3803",
+        "3910",
+        "3911",
+        "3912",
+        "3913",
+        "3915",
+        "3916",
+        "3918",
+        "3919",
+        "3920",
+        "3926",
+        "3927",
+        "3928",
+        "3929",
+        "3930",
+        "3931",
+        "3933",
+        "3934",
+        "3936",
+        "3937",
+        "3938",
+        "3939",
+        "3940",
+        "3941",
+        "3942",
+        "3943",
+        "3944",
+        "3975",
+        "3976",
+        "3977"
+      ]
+    },
+    "displayName": "The Basic Free 3 Plan",
+    "lastUpdated": "2025-09-16T04:30:04Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-09-18T14:00:00Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "101.67",
+          "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for the re-energisation of power to the site.\nOVO Energy reserves the right to and will notify you if it changes or imposes additional fees or charges in relation to your energy supply. Please refer to ovoenergy.com.au/fees for more information."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "67.45",
+          "description": "This is a charge from your distribution company. OVO Energy will only ever pass the exact cost through to you. Site attendance - A fee (inc GST) may be charged for disconnection when you move out of your property. Fees may vary for some customers."
+        }
+      ],
+      "terms": "OVO Energy's terms and conditions are available at www.ovoenergy.com.au/terms",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "OVO Energy may vary the rates at any time in accordance with the terms and conditions available at www.ovoenergy.com.au/terms",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Free 3",
+          "displayName": "Free 3",
+          "eligibility": "Free electricity between 11am and 2pm everyday. Does not apply to controlled loads. For more information head to https://pages.ovoenergy.com.au/the-free-3-plan"
+        },
+        {
+          "category": "OTHER",
+          "description": "Interest Rewards",
+          "displayName": "Interest Rewards",
+          "eligibility": "OVO Energy pay 3% interest on credit balances (after all monthly charges are considered). This is prorated for the number of days since your last bill."
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This offer applies to residential customers with a communicating smart meter on an applicable network tariff."
+        }
+      ],
+      "pricingModel": "FLEXIBLE",
+      "tariffPeriod": [
+        {
+          "endDate": "11-30",
+          "startDate": "12-01",
+          "displayName": "All-year",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.3413"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:00",
+                  "startTime": "15:00"
+                }
+              ],
+              "displayName": "Tariff 1"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.2051"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "00:00",
+                  "startTime": "21:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "11:00",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "15:00",
+                  "startTime": "14:00"
+                }
+              ],
+              "displayName": "Tariff 2"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.00000001"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "14:00",
+                  "startTime": "11:00"
+                }
+              ],
+              "displayName": "Tariff 3"
+            }
+          ],
+          "dailySupplyCharge": "0.903",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "OTHER"
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.055",
+              "percentGreen": "1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "100% GreenPower for 5.50c/kWh inc. GST.",
+          "displayName": "GreenPower 100"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "OVO Energy Retailer Feed-in-Tariff (exclusive of GST)",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.01"
+              }
+            ]
+          }
+        }
+      ],
+      "onExpiryDescription": "Ongoing contract with no contract term"
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/ovo-energy/cds-au/v1/energy/plans/OVO706026MR@VEC"
+  }
+}

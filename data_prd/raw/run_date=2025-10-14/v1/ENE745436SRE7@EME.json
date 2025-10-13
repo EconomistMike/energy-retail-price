@@ -1,0 +1,533 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "energyaustralia",
+    "planId": "ENE745436SRE7@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "EnergyAustralia",
+    "geography": {
+      "distributors": [
+        "Endeavour"
+      ],
+      "includedPostcodes": [
+        "2113",
+        "2114",
+        "2115",
+        "2116",
+        "2117",
+        "2118",
+        "2119",
+        "2120",
+        "2121",
+        "2122",
+        "2125",
+        "2126",
+        "2142",
+        "2145",
+        "2146",
+        "2147",
+        "2148",
+        "2150",
+        "2151",
+        "2152",
+        "2153",
+        "2154",
+        "2155",
+        "2156",
+        "2157",
+        "2158",
+        "2159",
+        "2160",
+        "2161",
+        "2162",
+        "2163",
+        "2164",
+        "2165",
+        "2166",
+        "2167",
+        "2168",
+        "2170",
+        "2171",
+        "2172",
+        "2173",
+        "2174",
+        "2175",
+        "2176",
+        "2177",
+        "2178",
+        "2179",
+        "2198",
+        "2200",
+        "2213",
+        "2214",
+        "2233",
+        "2250",
+        "2257",
+        "2283",
+        "2304",
+        "2323",
+        "2325",
+        "2328",
+        "2329",
+        "2330",
+        "2500",
+        "2502",
+        "2505",
+        "2506",
+        "2508",
+        "2515",
+        "2516",
+        "2517",
+        "2518",
+        "2519",
+        "2525",
+        "2526",
+        "2527",
+        "2528",
+        "2529",
+        "2530",
+        "2533",
+        "2534",
+        "2535",
+        "2536",
+        "2538",
+        "2539",
+        "2540",
+        "2541",
+        "2555",
+        "2556",
+        "2557",
+        "2558",
+        "2559",
+        "2560",
+        "2563",
+        "2564",
+        "2565",
+        "2566",
+        "2567",
+        "2568",
+        "2569",
+        "2570",
+        "2571",
+        "2572",
+        "2573",
+        "2574",
+        "2575",
+        "2576",
+        "2577",
+        "2578",
+        "2579",
+        "2580",
+        "2622",
+        "2745",
+        "2747",
+        "2748",
+        "2749",
+        "2750",
+        "2751",
+        "2752",
+        "2753",
+        "2754",
+        "2756",
+        "2757",
+        "2758",
+        "2759",
+        "2760",
+        "2761",
+        "2762",
+        "2763",
+        "2765",
+        "2766",
+        "2767",
+        "2768",
+        "2769",
+        "2770",
+        "2773",
+        "2774",
+        "2775",
+        "2776",
+        "2777",
+        "2778",
+        "2779",
+        "2780",
+        "2782",
+        "2783",
+        "2784",
+        "2785",
+        "2786",
+        "2787",
+        "2790",
+        "2795",
+        "2800",
+        "2845",
+        "2846",
+        "2847",
+        "2848",
+        "2849",
+        "2850"
+      ]
+    },
+    "displayName": "Standing Offer (Home)",
+    "lastUpdated": "2025-08-31T14:12:18.551Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-09-01T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.69",
+          "description": "Disconnection fee may apply when vacating your property and disconnecting electricity to your property (or reading your meter where applicable). Fees may vary and see additional fee information for more details."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.69",
+          "description": "Reconnection fee may apply when moving into your property and connecting electricity to your property (or reading your meter where applicable). Fees may vary and see additional fee information for details."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.69",
+          "description": "Connection fee may apply when moving into your property and connecting electricity to your property (or reading your meter where applicable). Fees may vary and see additional fee information for details."
+        },
+        {
+          "rate": "0.0036",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+        },
+        {
+          "rate": "0.015",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+        },
+        {
+          "term": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "10.9",
+          "description": "$10.90 (GST does not currently apply to late payment fees)."
+        }
+      ],
+      "terms": "Please refer to our website www.energyaustralia.com.au for full terms and conditions.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "The rates for Standing Offer (Home) may vary, either when the AER changes the reference price, or when we review our rates each year. We will notify you before any rate change occurs.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "You may be eligible for our PowerResponse program, and by participating in events, you may be eligible for rebates which may change over time. See website energyaustralia.com.au/power-response for details on eligibility criteria, T&C's and rebates.",
+          "displayName": "PowerResponse program rebate"
+        }
+      ],
+      "meterTypes": [
+        "Type 4",
+        "Type 4a"
+      ],
+      "pricingModel": "TIME_OF_USE",
+      "tariffPeriod": [
+        {
+          "endDate": "03-31",
+          "startDate": "11-01",
+          "displayName": "Summer",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.54483",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "16:00"
+                }
+              ],
+              "description": "Between 4pm and 8pm, Monday to Friday (excluding public holidays)",
+              "displayName": "Summer Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.35608",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "15:59",
+                  "startTime": "14:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "09:59",
+                  "startTime": "20:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "09:59",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "23:59",
+                  "startTime": "14:00"
+                }
+              ],
+              "description": "All other times",
+              "displayName": "Off-peak"
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.17638",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "13:59",
+                  "startTime": "10:00"
+                }
+              ],
+              "description": "Between 10am and 2pm Mon-Sun",
+              "displayName": "Shoulder"
+            }
+          ],
+          "dailySupplyCharge": "1.249",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "10-31",
+          "startDate": "04-01",
+          "displayName": "Non-summer",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.49796",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "16:00"
+                }
+              ],
+              "description": "Between 4pm and 8pm, Monday to Friday (excluding public holidays)",
+              "displayName": "Non-summer Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.35608",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "15:59",
+                  "startTime": "14:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "09:59",
+                  "startTime": "20:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "09:59",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "23:59",
+                  "startTime": "14:00"
+                }
+              ],
+              "description": "All other times",
+              "displayName": "Off-Peak"
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.17638",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "13:59",
+                  "startTime": "10:00"
+                }
+              ],
+              "description": "Between 10am and 2pm Mon-Sun",
+              "displayName": "Shoulder"
+            }
+          ],
+          "dailySupplyCharge": "1.249",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL",
+        "DIRECT_DEBIT",
+        "BPAY",
+        "CREDIT_CARD",
+        "OTHER"
+      ],
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0495",
+              "percentGreen": "0.1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "PureEnergy 10% = $0.0495 x (10% x total usage)",
+          "displayName": "PureEnergy 10%"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0495",
+              "percentGreen": "0.2"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "PureEnergy 20% = $0.0495 x (20% x total usage)",
+          "displayName": "PureEnergy 20%"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0495",
+              "percentGreen": "1.0"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "PureEnergy 100% = $0.0495 per kWh",
+          "displayName": "PureEnergy 100%"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "payerType": "RETAILER",
+          "description": "Option 1 - EnergyAustralia Retailer Flat Feed-in-Tariff (excl. GST if any)",
+          "displayName": "Retailer Feed-in-Tariff",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.04",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        }
+      ],
+      "onExpiryDescription": "This contract continues for as long as you remain on the plan.",
+      "additionalFeeInformation": "Additional fees and charges may apply. Please refer to www.energyaustralia.com.au/conditions-and-pricing/other-charges. You can avoid the payment processing fees by paying from your bank account using direct debit or BPay."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/ENE745436SRE7@EME"
+  }
+}

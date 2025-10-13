@@ -1,0 +1,218 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "red-energy",
+    "planId": "RED693631MR@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Red Energy",
+    "geography": {
+      "distributors": [
+        "Citipower"
+      ],
+      "includedPostcodes": [
+        "3000",
+        "3002",
+        "3003",
+        "3004",
+        "3005",
+        "3006",
+        "3008",
+        "3010",
+        "3011",
+        "3031",
+        "3051",
+        "3052",
+        "3053",
+        "3054",
+        "3055",
+        "3056",
+        "3057",
+        "3065",
+        "3066",
+        "3067",
+        "3068",
+        "3070",
+        "3071",
+        "3078",
+        "3101",
+        "3102",
+        "3103",
+        "3104",
+        "3121",
+        "3122",
+        "3123",
+        "3124",
+        "3125",
+        "3126",
+        "3127",
+        "3129",
+        "3141",
+        "3142",
+        "3143",
+        "3144",
+        "3161",
+        "3181",
+        "3182",
+        "3183",
+        "3205",
+        "3206",
+        "3207"
+      ]
+    },
+    "displayName": "Qantas Red Saver (Bundled)",
+    "lastUpdated": "2025-08-06T01:43:28Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-08-12T14:00:00Z",
+    "electricityContract": {
+      "terms": "Please visit www.redenergy.com.au/terms for full T&Cs applicable to this offer. Solar Feed-In T&Cs can be found at www.redenergy.com.au/solar-feed-in-tariffs. All times are AEST, unless you have an interval meter, in which case daylight savings time will apply. We will issue your bill at least quarterly, or if you have a Smart Meter, monthly, unless you have requested to be billed quarterly or your Smart Meter does not have active telecommunications.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Qantas Points",
+          "displayName": "Qantas Points",
+          "eligibility": "Get 10,000 bonus Qantas Points when you pay your first electricity bill in full, and 3 Qantas Points per $1 on every electricity bill when you pay on time. For T&Cs see redenergy.com.au/terms"
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "Available to business customers who are nominated as a Director or Authorised Person on a Qantas Red business plan and sign up a new residential premises on a Qantas Red plan within the Citipower distribution zone with applicable network tariff. For more information phone Red Energy on 131 806."
+        }
+      ],
+      "pricingModel": "TIME_OF_USE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "displayName": "Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.2965"
+                }
+              ],
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:00",
+                  "startTime": "15:00"
+                }
+              ],
+              "displayName": "Tariff 1"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.1897"
+                }
+              ],
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "00:00",
+                  "startTime": "21:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "15:00",
+                  "startTime": "00:00"
+                }
+              ],
+              "displayName": "Tariff 2"
+            }
+          ],
+          "dailySupplyCharge": "1.015",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.1718"
+              }
+            ],
+            "description": "Generally apply for 7 hours a day and the times are managed by your network (Hot water and/or slab heating only).",
+            "displayName": "Controlled Load"
+          },
+          "displayName": "Controlled Load",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.033",
+              "percentGreen": "1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "Red Energy offers 100% GreenPower for an extra 3.3 cents per kWh. Please contact us on 131 806 for more information.",
+          "displayName": "GreenPower 100"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "Feed in Tariff",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.01"
+              }
+            ]
+          }
+        }
+      ],
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED693631MR@VEC"
+  }
+}

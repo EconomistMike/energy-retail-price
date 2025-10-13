@@ -1,0 +1,136 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "alinta",
+    "planId": "ALI993720MBG1@EME",
+    "fuelType": "GAS",
+    "brandName": "Alinta Energy",
+    "geography": {
+      "distributors": [
+        "Jemena Country Network"
+      ],
+      "includedPostcodes": [
+        "2571",
+        "2572",
+        "2573",
+        "2574",
+        "2575",
+        "2576",
+        "2577",
+        "2578",
+        "2579",
+        "2590",
+        "2663",
+        "2671",
+        "2680",
+        "2681",
+        "2700",
+        "2701",
+        "2702",
+        "2703",
+        "2705",
+        "2706",
+        "2787",
+        "2790",
+        "2794",
+        "2795",
+        "2798",
+        "2799",
+        "2800",
+        "2820",
+        "2821",
+        "2830",
+        "2831",
+        "2845",
+        "2870",
+        "2871"
+      ]
+    },
+    "displayName": "BusinessDeal Max - Gas",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "92.4",
+          "description": "Disconnection fee. Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "129.8",
+          "description": "Reconnection (Power Off - Re-Energisation Required). Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "18.7",
+          "description": "Special Read. Fee may vary, please see additional fee information."
+        }
+      ],
+      "terms": "This offer is only available to customers with an applicable network tariff. Eligibility criteria apply, for terms and conditions see alintaenergy.com.au/termsandconditions or call 13 39 08.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "Alinta Energy's market tariff and feed in tariffs (where applicable) may be varied in accordance with applicable laws. If we change the applicable tariff, we will give you notice of any variations in accordance with applicable laws.",
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 20.71,
+                "unitPrice": "0.0353"
+              },
+              {
+                "volume": 20.38,
+                "unitPrice": "0.0275"
+              },
+              {
+                "volume": 49.32,
+                "unitPrice": "0.0268"
+              },
+              {
+                "volume": 2654.79,
+                "unitPrice": "0.0267"
+              },
+              {
+                "volume": 10964.38,
+                "unitPrice": "0.0258"
+              },
+              {
+                "unitPrice": "0.025"
+              }
+            ],
+            "period": "P1D",
+            "description": "Usage",
+            "displayName": "General"
+          },
+          "displayName": "Usage Charges",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.359",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "PAPER_BILL",
+        "BPAY"
+      ],
+      "coolingOffDays": 10,
+      "additionalFeeInformation": "We reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges for work undertaken by your Distributor or Metering Provider are outlined at www.alintaenergy.com.au/feesandcharges"
+    },
+    "lastUpdated": "2025-08-19T14:06:13.809Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-08-20T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI993720MBG1@EME"
+  }
+}

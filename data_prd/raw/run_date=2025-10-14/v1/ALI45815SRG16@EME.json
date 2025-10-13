@@ -1,0 +1,176 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "alinta",
+    "planId": "ALI45815SRG16@EME",
+    "fuelType": "GAS",
+    "brandName": "Alinta Energy",
+    "geography": {
+      "distributors": [
+        "Allgas Energy QLD"
+      ],
+      "includedPostcodes": [
+        "4068",
+        "4073",
+        "4074",
+        "4075",
+        "4076",
+        "4077",
+        "4078",
+        "4101",
+        "4102",
+        "4103",
+        "4104",
+        "4105",
+        "4106",
+        "4107",
+        "4108",
+        "4109",
+        "4110",
+        "4111",
+        "4112",
+        "4113",
+        "4114",
+        "4115",
+        "4116",
+        "4117",
+        "4118",
+        "4119",
+        "4120",
+        "4121",
+        "4122",
+        "4123",
+        "4124",
+        "4125",
+        "4127",
+        "4128",
+        "4129",
+        "4131",
+        "4132",
+        "4133",
+        "4151",
+        "4152",
+        "4153",
+        "4154",
+        "4155",
+        "4156",
+        "4157",
+        "4158",
+        "4159",
+        "4160",
+        "4161",
+        "4163",
+        "4164",
+        "4169",
+        "4170",
+        "4171",
+        "4172",
+        "4173",
+        "4174",
+        "4178",
+        "4179",
+        "4205",
+        "4207",
+        "4208",
+        "4209",
+        "4210",
+        "4211",
+        "4212",
+        "4213",
+        "4214",
+        "4215",
+        "4216",
+        "4217",
+        "4218",
+        "4220",
+        "4221",
+        "4223",
+        "4224",
+        "4225",
+        "4226",
+        "4227",
+        "4228",
+        "4280",
+        "4300",
+        "4303",
+        "4334",
+        "4350",
+        "4352",
+        "4356",
+        "4401",
+        "4718"
+      ]
+    },
+    "displayName": "Standing Offer Gas",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "71.64",
+          "description": "Disconnection fee. Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "91.71",
+          "description": "Reconnection (Power Off - Re-Energisation Required). Fee may vary, please see additional fee information."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "26.08",
+          "description": "Special Read. Fee may vary, please see additional fee information."
+        }
+      ],
+      "terms": "This offer is only available to customers with an applicable network tariff. Eligibility criteria apply, for terms and conditions see alintaenergy.com.au/termsandconditions or call 13 37 02.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "Alinta Energy will notify you in advance of any tariff or price variation in accordance with applicable laws.",
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 25.5123,
+                "unitPrice": "0.0449"
+              },
+              {
+                "unitPrice": "0.0413"
+              }
+            ],
+            "period": "P1D",
+            "description": "Usage",
+            "displayName": "General"
+          },
+          "displayName": "Usage Charges",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.2072",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "PAPER_BILL",
+        "BPAY",
+        "OTHER"
+      ],
+      "coolingOffDays": 10,
+      "additionalFeeInformation": "We reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges for work undertaken by your Distributor or Metering Provider are outlined at www.alintaenergy.com.au/feesandcharges"
+    },
+    "lastUpdated": "2025-06-30T14:09:44.421Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-07-01T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI45815SRG16@EME"
+  }
+}

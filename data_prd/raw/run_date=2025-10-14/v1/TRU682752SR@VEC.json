@@ -1,0 +1,168 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "energyaustralia",
+    "planId": "TRU682752SR@VEC",
+    "fuelType": "GAS",
+    "brandName": "EnergyAustralia",
+    "geography": {
+      "distributors": [
+        "AusNet Services (gas)"
+      ],
+      "includedPostcodes": [
+        "3249",
+        "3250",
+        "3266",
+        "3277",
+        "3280",
+        "3282",
+        "3300",
+        "3305",
+        "3340",
+        "3342",
+        "3350",
+        "3351",
+        "3352",
+        "3355",
+        "3356",
+        "3357",
+        "3358",
+        "3401",
+        "3430",
+        "3437",
+        "3444",
+        "3450",
+        "3451",
+        "3460",
+        "3461",
+        "3462",
+        "3464",
+        "3465",
+        "3550",
+        "3551",
+        "3555",
+        "3556"
+      ]
+    },
+    "displayName": "Standing Offer (Home) (T3)",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "75.02",
+          "description": "Reconnection - Business hours"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "8.18",
+          "description": "Special Meter Read"
+        },
+        {
+          "rate": "0.0036",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+        },
+        {
+          "rate": "0.015",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "1.69",
+          "description": "Paper bill fee incl. GST per bill effective from 6 April 2020.  Refer to www.energyaustralia.com.au/home/help-and-support/faqs/paper-bill-fee for details."
+        }
+      ],
+      "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+      "isFixed": false,
+      "variation": "The rates for Standing Offer (Home) may vary, either when we are directed to change regulated rates, or when we review our rates each year. We’ll notify you before any rate change occurs.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "The details in this fact sheet are for residential customers located in the distribution area outlined with the meter configuration described."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.03674"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.03384"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.02991"
+              },
+              {
+                "unitPrice": "0.02739"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Winter Rates",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.373",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.03045"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.03007"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.02897"
+              },
+              {
+                "unitPrice": "0.02644"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Non-Winter Rates",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.373",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "This contract continues for as long as you remain on the plan."
+    },
+    "lastUpdated": "2025-07-17T21:38:53Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-07-31T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU682752SR@VEC"
+  }
+}

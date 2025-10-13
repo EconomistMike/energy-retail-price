@@ -1,0 +1,133 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "perpetual",
+    "planId": "PER975014SBG1@EME",
+    "fuelType": "GAS",
+    "brandName": "Perpetual Energy",
+    "geography": {
+      "distributors": [
+        "Allgas Energy NSW"
+      ],
+      "includedPostcodes": [
+        "2485",
+        "2486"
+      ]
+    },
+    "displayName": "Small Business Standing Offer Allgas NSW Network",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00",
+          "description": "May be charged when payment is not received by the due date indicated on your bill. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "91.726",
+          "description": "May be charged when manually connecting or reading your meter when you move into a property or change retailer. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "91.726",
+          "description": "May be charged when manually reconnecting or reading your meter when you move into a property or change retailer. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "71.643",
+          "description": "May be charged when you request a disconnection of your meter. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "71.643",
+          "description": "May be charged when you request a disconnection of your meter when moving out of the premises. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "557.403",
+          "description": "May be charged when a disconnection is arranged due to non-payment. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "2.75",
+          "description": "May be charged when a direct debit payment is dishonoured. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "0.33",
+          "description": "May be charged when payment is made via direct debit. Incl GST."
+        },
+        {
+          "rate": "0.01",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "May be charged when payment is made via debit or credit card. Incl GST."
+        },
+        {
+          "rate": "0.02",
+          "term": "PERCENT_OF_BILL",
+          "type": "OTHER",
+          "description": "May be charged when payment is made via American Express card. Incl GST."
+        }
+      ],
+      "terms": "Perpetual Energy Standing Offer to Small Business customers in Allgas NSW network.",
+      "isFixed": true,
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 1700,
+                "unitPrice": "0.059617"
+              },
+              {
+                "volume": 8300,
+                "unitPrice": "0.055713"
+              },
+              {
+                "unitPrice": "0.052587"
+              }
+            ],
+            "period": "P1D",
+            "description": "All Time",
+            "displayName": "General Supply All Time"
+          },
+          "displayName": "Single Rate Tariff Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.3895",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M",
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL",
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "OTHER",
+        "BPAY"
+      ],
+      "additionalFeeInformation": "Additional fees and charges may apply. Please see the fee schedules on our website."
+    },
+    "lastUpdated": "2025-07-07T01:19:31.131Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-07T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/perpetual/cds-au/v1/energy/plans/PER975014SBG1@EME"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "powershop",
+    "planId": "POD680840SS@VEC",
+    "fuelType": "GAS",
+    "brandName": "Powershop",
+    "geography": {
+      "distributors": [
+        "AusNet Services (gas)"
+      ],
+      "includedPostcodes": [
+        "3241",
+        "3260",
+        "3284",
+        "3352",
+        "3363",
+        "3364",
+        "3431",
+        "3434",
+        "3435",
+        "3437",
+        "3438",
+        "3440",
+        "3441",
+        "3442",
+        "3551"
+      ]
+    },
+    "displayName": "Standing Offer",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00",
+          "description": "Other fees may apply. Information regarding fees is set out on our fees page powershop.com.au/fees"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "8.18",
+          "description": "Fees may apply for a move in read. The fee will be passed on from your distributor and may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "8.18",
+          "description": "Fees may apply for a move out read. The fee will be passed on from your distributor and may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "75.03",
+          "description": "Reconnection fees may apply to re-energise a property and remove locks. The fee will be passed on from your distributor and may vary."
+        }
+      ],
+      "terms": "Powershop offer bi-monthly bills and do not issue paper bills. We require a credit card or bank details. For further information in relation to Powershop and this offer - see our full terms and conditions at: powershop.com.au/terms-and-conditions",
+      "isFixed": false,
+      "variation": "We may update your prices from time to time and no more than once every six months. We will always notify you of any price change",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This offer is available to customers within the AusNet Services Adjoining West distribution zone with the applicable network tariff and meter configuration, and where Powershop is the retailer responsible for gas supplied at the premises."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.039932"
+              }
+            ],
+            "displayName": "Rate"
+          },
+          "displayName": "Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.302205",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.039932"
+              }
+            ],
+            "displayName": "Rate"
+          },
+          "displayName": "Off Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.302205",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "OTHER"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees."
+    },
+    "lastUpdated": "2025-07-08T05:16:44Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-31T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/POD680840SS@VEC"
+  }
+}

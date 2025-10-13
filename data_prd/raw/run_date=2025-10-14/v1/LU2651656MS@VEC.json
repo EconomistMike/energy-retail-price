@@ -1,0 +1,170 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "lumo",
+    "planId": "LU2651656MS@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Lumo Energy",
+    "geography": {
+      "distributors": [
+        "Jemena"
+      ],
+      "includedPostcodes": [
+        "3011",
+        "3012",
+        "3013",
+        "3015",
+        "3016",
+        "3019",
+        "3020",
+        "3023",
+        "3025",
+        "3031",
+        "3032",
+        "3033",
+        "3034",
+        "3036",
+        "3037",
+        "3038",
+        "3039",
+        "3040",
+        "3041",
+        "3042",
+        "3043",
+        "3044",
+        "3045",
+        "3046",
+        "3047",
+        "3048",
+        "3049",
+        "3051",
+        "3052",
+        "3058",
+        "3059",
+        "3060",
+        "3061",
+        "3062",
+        "3063",
+        "3064",
+        "3068",
+        "3070",
+        "3072",
+        "3073",
+        "3074",
+        "3076",
+        "3078",
+        "3079",
+        "3081",
+        "3083",
+        "3084",
+        "3085",
+        "3086",
+        "3087",
+        "3335",
+        "3336",
+        "3337",
+        "3340",
+        "3427",
+        "3428",
+        "3429",
+        "3430",
+        "3431",
+        "3437",
+        "3750",
+        "3753"
+      ]
+    },
+    "displayName": "Lumo Plus",
+    "lastUpdated": "2025-06-09T22:21:18Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-06-30T14:00:00Z",
+    "electricityContract": {
+      "terms": "Please visit www.lumoenergy.com.au/terms for full T&Cs applicable to this offer. Solar Feed-In T&Cs can be found at www.lumoenergy.com.au/metering-and-solar. We will issue your bill at least quarterly, or if you have a Smart Meter, monthly, unless you have requested to be billed quarterly or your Smart Meter does not have active telecommunications.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This offer is available to small business customers currently within the Jemena distribution zone with applicable network tariff. For more information contact 1300 115 866."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.2864"
+              }
+            ],
+            "displayName": "Rate"
+          },
+          "displayName": "Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.2498",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.2126"
+              }
+            ],
+            "description": "Generally apply for 7 hours a day and the times are managed by your network (Hot water and/or slab heating only).",
+            "displayName": "Controlled Load"
+          },
+          "displayName": "Controlled Load",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.033",
+              "percentGreen": "0.1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For an extra 3.3 cents per kWh Lumo will purchase 10% of your consumption from GreenPower accredited sources.",
+          "displayName": "GreenPower 10"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "Feed-In Tariff",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.01"
+              }
+            ]
+          }
+        }
+      ],
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2651656MS@VEC"
+  }
+}

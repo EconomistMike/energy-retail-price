@@ -1,0 +1,95 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "red-energy",
+    "planId": "RED552125MBG8@EME",
+    "fuelType": "GAS",
+    "brandName": "Red Energy",
+    "geography": {
+      "distributors": [
+        "Central Ranges Pipeline Tamworth"
+      ],
+      "includedPostcodes": [
+        "2340",
+        "2341",
+        "2342",
+        "2343",
+        "2344",
+        "2381",
+        "2820",
+        "2830",
+        "2831",
+        "2843",
+        "2844"
+      ]
+    },
+    "displayName": "Red Business Saver",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "62.23",
+          "description": "Connection fee (GST incl) for standard move in requests during business hours. Fees may vary. See Additional Fee Information for details."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "62.23",
+          "description": "Disconnection fee (GST incl) generally applies for any move-out request. Fees may vary. See Additional Fee Information for details."
+        }
+      ],
+      "terms": "This offer is available to small business customers currently within the APA Group (NSW) Tamworth distribution zone. Please visit www.redenergy.com.au/terms for full T&Cs applicable to this offer.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "We may vary your rates in line with our Customer Charter and in accordance with the Relevant Laws. We will give you written notice of at least 5 business day prior to the variation.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Offset Gas is certified by Climate Active and is an opt-in natural gas product charged at an additional rate of 0.242 cents per MJ inc GST to your standard gas usage charges and may be varied or ended by notice under relevant laws. For more information visit www.redenergy.com.au/offset-gas.",
+          "displayName": "Opt-in to Offset Gas"
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.0435"
+              }
+            ],
+            "period": "P1D",
+            "description": "General usage",
+            "displayName": "Anytime"
+          },
+          "displayName": "Single Rate Tariff Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.82",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "BPAY",
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us",
+      "additionalFeeInformation": "The fees and charges listed in the Fees and Charges section above apply to the standard move in and move out requests. For details on our additional fees and charges, please visit https://www.redenergy.com.au/additional-service-charges-nsw or contact us on 131 806."
+    },
+    "lastUpdated": "2025-06-30T14:07:42.492Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-01T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED552125MBG8@EME"
+  }
+}

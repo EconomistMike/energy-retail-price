@@ -1,0 +1,144 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "agl",
+    "planId": "AGL933630MRG6@EME",
+    "fuelType": "GAS",
+    "brandName": "AGL",
+    "geography": {
+      "distributors": [
+        "AGN Wagga Wagga"
+      ],
+      "includedPostcodes": [
+        "2650",
+        "2651",
+        "2652",
+        "2661"
+      ]
+    },
+    "displayName": "Residential Smart Saver - BP Fuel New To AGL",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "68.00",
+          "description": "May be charged when manually reconnecting or reading your meter when you move into a property or change retailer. Incl GST. Fees may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "68.00",
+          "description": "May be charged when manually disconnecting or reading your meter when you move out of a property or change retailer. Incl GST. Fees may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "79.35",
+          "description": "Fee may be charged when manually disconnecting your meter in other circumstances, such as non-payment. Includes GST. Fees may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00",
+          "description": "A late payment fee may be charged when full payment has not been received by the bill due date. This amount is not subject to GST"
+        },
+        {
+          "rate": "0.0015",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "The amount is GST inclusive and applies to payments made by Visa debit cards."
+        },
+        {
+          "rate": "0.0054",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "The amount is GST inclusive and applies to card payments made at Australia Post outlets."
+        },
+        {
+          "rate": "0.0065",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "The amount is GST inclusive and applies to payments made by Visa credit cards."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "77.47",
+          "description": "May be charged when manually reconnecting in other circumstances, such as after disconnection for non-payment. Includes GST. Fees may vary"
+        },
+        {
+          "rate": "0.0032",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "The amount is GST inclusive and applies to payments made by Mastercard debit cards."
+        },
+        {
+          "rate": "0.0075",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "The amount is GST inclusive and applies to payments made by Mastercard credit cards. Please note, the fee is changing from 0.77% to 0.75% effectives 1st August 2025."
+        }
+      ],
+      "terms": "This offer applies to customers with an applicable network tariff. For further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "This plan also includes variable rates, retail fees and charges, which can change at any time with notice to you. If we vary your rates, we will give you at least 5 business days prior notice of the variation. Other charges may be varied with notice to you.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Remain with AGL for at least 30 days from sign up to receive one $100 Prepaid Visa per customer",
+          "displayName": "Bonus $100 Prepaid Visa"
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "description": "Offer applies to eligible residential customers who are BP Rewards Members, located in NSW in areas where AGL operates, with an applicable network tariff.",
+          "information": "BP Rewards Member"
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.02624"
+              }
+            ],
+            "period": "P1D",
+            "description": "Gas Tariff",
+            "displayName": "Residential"
+          },
+          "displayName": "Single Rate Tariff Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.04031",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M",
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL",
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "BPAY"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your market contract is ongoing. From time to time, AGL reviews its offers and this offer will be reviewed with consideration to AGLâ€™s generally available market offers",
+      "additionalFeeInformation": "Additional fees and charges may apply. Please see the AGL fee schedules at agl.com.au/fees"
+    },
+    "lastUpdated": "2025-10-08T23:28:31.336Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-10-09T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/agl/cds-au/v1/energy/plans/AGL933630MRG6@EME"
+  }
+}

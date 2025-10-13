@@ -1,0 +1,162 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "perpetual",
+    "planId": "PER975008SBG1@EME",
+    "fuelType": "GAS",
+    "brandName": "Perpetual Energy",
+    "geography": {
+      "distributors": [
+        "Evoenergy ACT"
+      ],
+      "includedPostcodes": [
+        "2600",
+        "2601",
+        "2602",
+        "2603",
+        "2604",
+        "2605",
+        "2606",
+        "2607",
+        "2609",
+        "2611",
+        "2612",
+        "2614",
+        "2615",
+        "2616",
+        "2617",
+        "2618",
+        "2620",
+        "2900",
+        "2902",
+        "2903",
+        "2904",
+        "2905",
+        "2906",
+        "2911",
+        "2912",
+        "2913",
+        "2914"
+      ]
+    },
+    "displayName": "Small Business Standing Offer Evoenergy ACT Network",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00",
+          "description": "May be charged when payment is not received by the due date indicated on your bill. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "80.3",
+          "description": "May be charged when manually connecting or reading your meter when you move into a property or change retailer. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "80.3",
+          "description": "May be charged when manually reconnecting or reading your meter when you move into a property or change retailer. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "262.9",
+          "description": "May be charged when you request a disconnection of your meter. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "262.9",
+          "description": "May be charged when you request a disconnection of your meter when moving out of the premises. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "262.9",
+          "description": "May be charged when a disconnection is arranged due to non-payment. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "2.75",
+          "description": "May be charged when a direct debit payment is dishonoured. Incl GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "0.33",
+          "description": "May be charged when payment is made via direct debit. Incl GST."
+        },
+        {
+          "rate": "0.01",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "May be charged when payment is made via debit or credit card. Incl GST."
+        },
+        {
+          "rate": "0.02",
+          "term": "PERCENT_OF_BILL",
+          "type": "OTHER",
+          "description": "May be charged when payment is made via American Express card. Incl GST."
+        }
+      ],
+      "terms": "Perpetual Energy Standing Offer to Small Business customers in Evoenergy ACT network.",
+      "isFixed": true,
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 41.209,
+                "unitPrice": "0.063892"
+              },
+              {
+                "volume": 443.407,
+                "unitPrice": "0.054413"
+              },
+              {
+                "volume": 1493.407,
+                "unitPrice": "0.053641"
+              },
+              {
+                "unitPrice": "0.053641"
+              }
+            ],
+            "period": "P1D",
+            "description": "All Time",
+            "displayName": "General Supply All Time"
+          },
+          "displayName": "Single Rate Tariff Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.251",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M",
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL",
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "OTHER",
+        "BPAY"
+      ],
+      "additionalFeeInformation": "Additional fees and charges may apply. Please see the fee schedules on our website."
+    },
+    "lastUpdated": "2025-07-07T01:19:31.411Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-07T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/perpetual/cds-au/v1/energy/plans/PER975008SBG1@EME"
+  }
+}

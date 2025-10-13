@@ -1,0 +1,349 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "globird",
+    "planId": "GLO711793MR@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "GloBird Energy",
+    "geography": {
+      "distributors": [
+        "Citipower"
+      ],
+      "includedPostcodes": [
+        "3000",
+        "3002",
+        "3003",
+        "3004",
+        "3005",
+        "3006",
+        "3008",
+        "3010",
+        "3011",
+        "3031",
+        "3051",
+        "3052",
+        "3053",
+        "3054",
+        "3055",
+        "3056",
+        "3057",
+        "3065",
+        "3066",
+        "3067",
+        "3068",
+        "3070",
+        "3071",
+        "3078",
+        "3101",
+        "3102",
+        "3103",
+        "3104",
+        "3121",
+        "3122",
+        "3123",
+        "3124",
+        "3125",
+        "3126",
+        "3127",
+        "3129",
+        "3141",
+        "3142",
+        "3143",
+        "3144",
+        "3161",
+        "3181",
+        "3182",
+        "3183",
+        "3205",
+        "3206",
+        "3207"
+      ]
+    },
+    "displayName": "GloBird  Combo GREENMAX Residential (Two Rate  With CL) Citipower",
+    "lastUpdated": "2025-10-10T01:37:16Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-10-12T13:00:00Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "rate": "0",
+          "term": "PERCENT_OF_BILL",
+          "type": "OTHER",
+          "description": "0 Credit Card Payment Processing Fee"
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "15.00",
+          "description": "This is smart meter remote re-connection fee. It assumes a smart meter being remotely connected during business hours when we have been given enough prior notice.  However, the fee can vary depending on the type of meter, the location, and other factors."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "15.00",
+          "description": "This is a smart meter remote disconnection fee, however, this fee can vary depending on your type of meter, the meter location, and other factors."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "4.00",
+          "description": "Paper Bill. If you have opted to receive a paper bill by post"
+        }
+      ],
+      "terms": "Please visit www.globirdenergy.com.au for full terms and conditions or call us on 133456.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "discounts": [
+        {
+          "type": "CONDITIONAL",
+          "category": "PAY_ON_TIME",
+          "description": "Discounts only apply when the condition is met. 2% when you pay the bill by the due date. Further 2% when you have both an active gas and electricity account for the same premises on one account and you pay the bill by the due date, and a further 1% when you pay the bill by the due date with direct debit. The discounts apply to both the supply and consumption charges and don't apply to solar credit.",
+          "displayName": "Prompt Payment Discounts",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.05"
+          }
+        }
+      ],
+      "variation": "Prices are reviewed one calendar month after the effective date of the approval of your distributor’s annual network tariffs by the regulator. We'll always notify you in writing prior to any change.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Local call center and no credit card processing fees",
+          "displayName": "Local call center and no credit card processing fees",
+          "eligibility": "Traditional energy plan. Easy to understand. Local call center. No sneaky credit card processing fees. Just great value."
+        },
+        {
+          "category": "OTHER",
+          "description": "100% Renewable Electricity",
+          "displayName": "100% Renewable Electricity",
+          "eligibility": "100% renewable electricity accredited by GreenPower."
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This contingent plan is available to residential customers with an eligible electricity smart meter and when bundled with one of GloBird's eligible gas plans for the same premise on one account. Other conditions apply - call 13 3456 to check if you are eligible."
+        }
+      ],
+      "pricingModel": "TIME_OF_USE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "displayName": "Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.314"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:00",
+                  "startTime": "15:00"
+                }
+              ],
+              "displayName": "Tariff 1"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.185"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "00:00",
+                  "startTime": "21:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "15:00",
+                  "startTime": "00:00"
+                }
+              ],
+              "displayName": "Tariff 2"
+            }
+          ],
+          "dailySupplyCharge": "1.01",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.199"
+              }
+            ],
+            "description": "Time switch controlled hot water services, space heaters and other dedicated loads",
+            "displayName": "Controlled Load"
+          },
+          "displayName": "Controlled Load",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "solarFeedInTariff": [
+        {
+          "scheme": "VARIABLE",
+          "payerType": "RETAILER",
+          "description": "TOU Solar feed-in (incl. GST if any)",
+          "displayName": "Variable FIT policy",
+          "tariffUType": "timeVaryingTariffs",
+          "timeVaryingTariffs": [
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.000001"
+                }
+              ],
+              "period": "P1D",
+              "displayName": "Off-Peak",
+              "timeVariations": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "14:00",
+                  "startTime": "10:00"
+                }
+              ]
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.001"
+                }
+              ],
+              "period": "P1D",
+              "displayName": "Shoulder",
+              "timeVariations": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "00:00",
+                  "startTime": "21:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "10:00",
+                  "startTime": "00:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "16:00",
+                  "startTime": "14:00"
+                }
+              ]
+            },
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.03"
+                }
+              ],
+              "period": "P1D",
+              "displayName": "Peak",
+              "timeVariations": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:00",
+                  "startTime": "16:00"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "intrinsicGreenPower": {
+        "greenPercentage": "1"
+      },
+      "onExpiryDescription": "No contract term, no exit fees. You can switch to another provider without penalty. We will always notify you before we change your discounts, prices or rates."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO711793MR@VEC"
+  }
+}

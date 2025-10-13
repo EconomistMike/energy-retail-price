@@ -1,0 +1,151 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "lumo",
+    "planId": "LU2642567MS@VEC",
+    "fuelType": "GAS",
+    "brandName": "Lumo Energy",
+    "geography": {
+      "distributors": [
+        "Australian Gas Networks"
+      ],
+      "includedPostcodes": [
+        "3000",
+        "3002",
+        "3003",
+        "3005",
+        "3008",
+        "3050",
+        "3051",
+        "3052",
+        "3053",
+        "3054",
+        "3056",
+        "3057",
+        "3065",
+        "3066",
+        "3067",
+        "3068",
+        "3070",
+        "3071",
+        "3072",
+        "3073",
+        "3074",
+        "3075",
+        "3076",
+        "3078",
+        "3079",
+        "3081",
+        "3082",
+        "3083",
+        "3084",
+        "3085",
+        "3087",
+        "3088",
+        "3089",
+        "3090",
+        "3091",
+        "3093",
+        "3094",
+        "3095",
+        "3096",
+        "3099",
+        "3121",
+        "3750",
+        "3751",
+        "3752",
+        "3754",
+        "3759",
+        "3821"
+      ]
+    },
+    "displayName": "Lumo Plus",
+    "gasContract": {
+      "terms": "Please visit www.lumoenergy.com.au/terms for full T&Cs applicable to this offer.",
+      "isFixed": false,
+      "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Regulatory Requirements. We will give you written notice of at least 5 business days prior to the variation.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This offer is available to small business customers currently within the Australian Gas Network Central (Zone 2) distribution zone. For more information contact 1300 115 866."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 50,
+                "unitPrice": "0.0358"
+              },
+              {
+                "volume": 500,
+                "unitPrice": "0.0348"
+              },
+              {
+                "volume": 820,
+                "unitPrice": "0.0328"
+              },
+              {
+                "unitPrice": "0.0308"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Off Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.179",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 50,
+                "unitPrice": "0.0358"
+              },
+              {
+                "volume": 500,
+                "unitPrice": "0.0348"
+              },
+              {
+                "volume": 820,
+                "unitPrice": "0.0328"
+              },
+              {
+                "unitPrice": "0.0308"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.179",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us. No exit fees."
+    },
+    "lastUpdated": "2025-05-08T03:30:21Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-05-14T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2642567MS@VEC"
+  }
+}

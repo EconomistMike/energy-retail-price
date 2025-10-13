@@ -1,0 +1,218 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "energyaustralia",
+    "planId": "TRU701269MS@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "EnergyAustralia",
+    "geography": {
+      "distributors": [
+        "Citipower"
+      ],
+      "includedPostcodes": [
+        "3000",
+        "3002",
+        "3003",
+        "3004",
+        "3005",
+        "3006",
+        "3008",
+        "3010",
+        "3011",
+        "3031",
+        "3051",
+        "3052",
+        "3053",
+        "3054",
+        "3055",
+        "3056",
+        "3057",
+        "3065",
+        "3066",
+        "3067",
+        "3068",
+        "3070",
+        "3071",
+        "3078",
+        "3101",
+        "3102",
+        "3103",
+        "3104",
+        "3121",
+        "3122",
+        "3123",
+        "3124",
+        "3125",
+        "3126",
+        "3127",
+        "3129",
+        "3141",
+        "3142",
+        "3143",
+        "3144",
+        "3161",
+        "3181",
+        "3182",
+        "3183",
+        "3205",
+        "3206",
+        "3207"
+      ]
+    },
+    "displayName": "Business Rate Fix - Peak with Dedicated Circuit",
+    "lastUpdated": "2025-08-17T23:43:23Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-08-31T14:00:00Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "rate": "0.0036",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+        },
+        {
+          "rate": "0.015",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "49.32",
+          "description": ""
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "48.60",
+          "description": ""
+        }
+      ],
+      "terms": "Please refer to our website www.energyaustralia.com.au for eligibility on solar and for full terms and conditions.",
+      "isFixed": true,
+      "timeZone": "LOCAL",
+      "discounts": [
+        {
+          "type": "GUARANTEED",
+          "category": "OTHER",
+          "description": "Discount applies to market energy charges, and not to fees and other charges such as late payment fees or GreenPower.",
+          "displayName": "Guaranteed Discount",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.06"
+          }
+        }
+      ],
+      "variation": "",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "The details presented in this fact sheet are for a small business customer located in the distribution area outlined with a metering configuration as described. Unless otherwise specified, 'Peak Only' is the default meter type."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.241545"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.31536",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.182909"
+              }
+            ],
+            "description": "Dedicated Circuit 1",
+            "displayName": "Controlled Load"
+          },
+          "displayName": "",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0495",
+              "percentGreen": "0.1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "PureEnergy 10% = $0.0495 x (10% x total usage)",
+          "displayName": "GreenPower 10"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0495",
+              "percentGreen": "0.25"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "PureEnergy 25% = $0.0495 x (25% x total usage)",
+          "displayName": "GreenPower 25"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0495",
+              "percentGreen": "1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "PureEnergy 100% = $0.0495 per kWh",
+          "displayName": "GreenPower 100"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "Retailer voluntary",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.015"
+              }
+            ]
+          }
+        }
+      ],
+      "onExpiryDescription": "Your market contract is ongoing. Your contract will continue until it is ended by either party."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU701269MS@VEC"
+  }
+}

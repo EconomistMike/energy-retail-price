@@ -1,0 +1,152 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "red-energy",
+    "planId": "RED654352MS@VEC",
+    "fuelType": "GAS",
+    "brandName": "Red Energy",
+    "geography": {
+      "distributors": [
+        "AusNet Services (gas)"
+      ],
+      "includedPostcodes": [
+        "3241",
+        "3249",
+        "3250",
+        "3266",
+        "3277",
+        "3280",
+        "3282",
+        "3300",
+        "3305",
+        "3340",
+        "3342",
+        "3350",
+        "3352",
+        "3355",
+        "3356",
+        "3357",
+        "3358",
+        "3430",
+        "3444",
+        "3450",
+        "3451",
+        "3460",
+        "3461",
+        "3464",
+        "3465",
+        "3550",
+        "3551",
+        "3555",
+        "3556",
+        "3437",
+        "3552",
+        "3351",
+        "3301",
+        "3345"
+      ]
+    },
+    "displayName": "Qantas Red Business Saver",
+    "gasContract": {
+      "terms": "Please visit www.redenergy.com.au/terms for full T&Cs applicable to this offer.",
+      "isFixed": false,
+      "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Qantas Points",
+          "displayName": "Qantas Points",
+          "eligibility": "Get 5,000 bonus Qantas Points when you pay your first gas bill in full, and 2 Qantas Points per $1 on every gas bill when you pay on time. For T&Cs see redenergy.com.au/terms"
+        },
+        {
+          "category": "OTHER",
+          "description": "Opt-in to Offset Gas",
+          "displayName": "Opt-in to Offset Gas",
+          "eligibility": "Offset Gas is certified by Climate Active and is an opt-in natural gas product charged at an additional rate of 0.242 cents per MJ inc GST and may be varied or ended by notice under relevant laws. See www.redenergy.com.au/offset-gas"
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "Only available to new business customers currently within the Ausnet Services Gas West distribution zone, who provide an ABN and have a valid Qantas Business Rewards membership. To be eligible to earn Qantas Points the ABN on your energy account must match the ABN registered to your Qantas Business Rewards membership."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.0278"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.0248"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.0228"
+              },
+              {
+                "unitPrice": "0.0218"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Summer",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.82",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.0298"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.0278"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.0258"
+              },
+              {
+                "unitPrice": "0.0228"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "WInter",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.82",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+    },
+    "lastUpdated": "2025-06-09T22:17:06Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-06-16T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED654352MS@VEC"
+  }
+}

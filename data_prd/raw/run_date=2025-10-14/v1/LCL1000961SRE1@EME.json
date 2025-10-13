@@ -1,0 +1,239 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "energy-locals",
+    "planId": "LCL1000961SRE1@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Energy Locals",
+    "geography": {
+      "distributors": [
+        "TasNetworks"
+      ],
+      "includedPostcodes": [
+        "7000",
+        "7004",
+        "7005",
+        "7007",
+        "7008",
+        "7009",
+        "7010",
+        "7011",
+        "7012",
+        "7015",
+        "7016",
+        "7017",
+        "7018",
+        "7019",
+        "7020",
+        "7021",
+        "7022",
+        "7023",
+        "7024",
+        "7025",
+        "7026",
+        "7027",
+        "7030",
+        "7050",
+        "7052",
+        "7053",
+        "7054",
+        "7055",
+        "7109",
+        "7112",
+        "7113",
+        "7116",
+        "7117",
+        "7119",
+        "7120",
+        "7139",
+        "7140",
+        "7150",
+        "7155",
+        "7162",
+        "7163",
+        "7170",
+        "7171",
+        "7172",
+        "7173",
+        "7174",
+        "7175",
+        "7176",
+        "7177",
+        "7178",
+        "7179",
+        "7180",
+        "7182",
+        "7183",
+        "7184",
+        "7185",
+        "7186",
+        "7187",
+        "7190",
+        "7209",
+        "7210",
+        "7211",
+        "7212",
+        "7213",
+        "7214",
+        "7215",
+        "7216",
+        "7248",
+        "7249",
+        "7250",
+        "7252",
+        "7253",
+        "7254",
+        "7258",
+        "7259",
+        "7260",
+        "7261",
+        "7262",
+        "7263",
+        "7264",
+        "7265",
+        "7267",
+        "7268",
+        "7270",
+        "7275",
+        "7276",
+        "7277",
+        "7290",
+        "7291",
+        "7292",
+        "7300",
+        "7301",
+        "7302",
+        "7303",
+        "7304",
+        "7305",
+        "7306",
+        "7307",
+        "7310",
+        "7315",
+        "7316",
+        "7320",
+        "7321",
+        "7322",
+        "7325",
+        "7330",
+        "7331",
+        "7466",
+        "7467",
+        "7468",
+        "7469",
+        "7470"
+      ]
+    },
+    "displayName": "Standing Offer",
+    "lastUpdated": "2025-08-22T03:54:55.656Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-08-22T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "10.00",
+          "description": "Charged when a direct debit payment has dishonoured or reversed. This charge is not subject to GST."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "99.00",
+          "description": "May be charged when you move into a property or change retailer. Actual fee may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "99.00",
+          "description": "May be charged when you move out and require a final meter read. Actual fee may vary."
+        }
+      ],
+      "terms": "Energy Locals offers no lock in contracts or exit fees. Prices may vary in accordance with the terms and conditions. See energylocals.com.au/terms for full terms and conditions.",
+      "isFixed": false,
+      "variation": "Due to changes in the market and economic conditions, we may update your tariff and/or fees. We will provide at least 5 business days' notice before the change takes place.",
+      "meterTypes": [
+        "Type 4",
+        "Type 4a",
+        "Type 5",
+        "Type 6"
+      ],
+      "pricingModel": "SINGLE_RATE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.264123"
+              }
+            ],
+            "period": "P1D",
+            "description": "Any time",
+            "displayName": "Peak"
+          },
+          "displayName": "Single Rate Tariff Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.51723",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M",
+        "P3M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "BPAY"
+      ],
+      "controlledLoad": [
+        {
+          "endDate": "2025-12-31",
+          "startDate": "2025-01-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.136687",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D",
+            "description": "Separately Controlled Usage",
+            "displayName": "Controlled Load 1",
+            "dailySupplyCharge": "0.00"
+          },
+          "displayName": "Controlled Load 1",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "endDate": "2030-06-30",
+          "payerType": "RETAILER",
+          "startDate": "2025-06-01",
+          "description": "Solar feed-in tariff (incl. GST, if any). | All kWh/day",
+          "displayName": "Solar FiT: Single Rate Feed In Tariff",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.08782",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D"
+          }
+        }
+      ],
+      "onExpiryDescription": "No fixed contract.",
+      "additionalFeeInformation": "For more information on these fees and other fees, please visit energylocals.com.au/fees"
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/energy-locals/cds-au/v1/energy/plans/LCL1000961SRE1@EME"
+  }
+}

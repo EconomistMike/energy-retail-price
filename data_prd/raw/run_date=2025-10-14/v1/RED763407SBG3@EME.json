@@ -1,0 +1,159 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "red-energy",
+    "planId": "RED763407SBG3@EME",
+    "fuelType": "GAS",
+    "brandName": "Red Energy",
+    "geography": {
+      "distributors": [
+        "Allgas Energy QLD"
+      ],
+      "includedPostcodes": [
+        "4068",
+        "4073",
+        "4074",
+        "4075",
+        "4076",
+        "4077",
+        "4078",
+        "4101",
+        "4102",
+        "4103",
+        "4104",
+        "4105",
+        "4106",
+        "4107",
+        "4108",
+        "4109",
+        "4110",
+        "4111",
+        "4112",
+        "4113",
+        "4114",
+        "4115",
+        "4116",
+        "4117",
+        "4118",
+        "4119",
+        "4120",
+        "4121",
+        "4122",
+        "4123",
+        "4124",
+        "4125",
+        "4127",
+        "4128",
+        "4129",
+        "4131",
+        "4132",
+        "4133",
+        "4151",
+        "4152",
+        "4153",
+        "4154",
+        "4155",
+        "4156",
+        "4157",
+        "4158",
+        "4159",
+        "4160",
+        "4161",
+        "4163",
+        "4164",
+        "4169",
+        "4170",
+        "4171",
+        "4172",
+        "4173",
+        "4174",
+        "4178",
+        "4179",
+        "4205",
+        "4207",
+        "4208",
+        "4209",
+        "4210",
+        "4211",
+        "4212",
+        "4213",
+        "4214",
+        "4215",
+        "4216",
+        "4217",
+        "4218",
+        "4220",
+        "4221",
+        "4223",
+        "4224",
+        "4225",
+        "4226",
+        "4227",
+        "4228",
+        "4280",
+        "4300",
+        "4303"
+      ]
+    },
+    "displayName": "Standing Offer",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "26.08",
+          "description": "Connection fee (GST incl) for standard move in requests during business hours. Fees may vary. See Additional Fee Information for details."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "26.08",
+          "description": "Disconnection fee (GST incl) generally applies for any move-out request. Fees may vary. See Additional Fee Information for details."
+        }
+      ],
+      "terms": "This offer is available to small business customers currently within the Allgas Energy (QLD) distribution zone. Please visit www.redenergy.com.au/terms for full T&Cs applicable to this offer.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "We may vary our standing offer rates no more than once every six months. If we vary our rates, we will publish the variation in a newspaper and on our website at least 10 business days prior to the effective date. If we increase our rates, we will also provide you written notice of at least 10 business days prior to the variation. If we decrease our rates, we will provide you written notice of at least 5 business days prior to the variation.",
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.042"
+              }
+            ],
+            "period": "P1D",
+            "description": "General usage",
+            "displayName": "Anytime"
+          },
+          "displayName": "Single Rate Tariff Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.50",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "BPAY",
+        "PAPER_BILL"
+      ],
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us",
+      "additionalFeeInformation": "The fees and charges listed in the Fees and Charges section above apply to the standard move in and move out requests. For details on our additional fees and charges, please visit https://www.redenergy.com.au/additional-service-charges-qld or contact us on 131 806."
+    },
+    "lastUpdated": "2025-06-30T14:06:09.451Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-01T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED763407SBG3@EME"
+  }
+}

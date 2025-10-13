@@ -1,0 +1,127 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "globird",
+    "planId": "GLO1008638MRG1@EME",
+    "fuelType": "GAS",
+    "brandName": "Globird Energy",
+    "geography": {
+      "distributors": [
+        "AGN - Northern"
+      ],
+      "includedPostcodes": [
+        "4680",
+        "4700",
+        "4701",
+        "4702"
+      ]
+    },
+    "displayName": "GLOSAVE Residential(AGN-Northern)-AGN QLD",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "30.00",
+          "description": "For move-in customers to get a start read. At least 3 business days notice & meter access needed. Fee does not cover unlocking a plugged meter."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "30.00",
+          "description": "For move-out customers to get a final read. At least 3 business days notice & meter access required. No fee if you simply switch retailer."
+        }
+      ],
+      "terms": "This offer is for QLD residential customers. Please visit www.globirdenergy.com.au for full terms and conditions or call us on 133456. Note, step 1 is calculated by multiplying the daily allowance by the number of days in the billing period. For example, a daily allowance of 50 MJ /day and a 30-day billing period has a step 1 of 1500 MJ, or a 31-day 1550 MJ.",
+      "isFixed": false,
+      "discounts": [
+        {
+          "type": "CONDITIONAL",
+          "category": "DIRECT_DEBIT",
+          "description": "You will receive 1% discount off Usage & Supply charges when you pay your bill on-time by direct debit",
+          "displayName": "Direct Debit Discount",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.01"
+          }
+        },
+        {
+          "type": "CONDITIONAL",
+          "category": "PAY_ON_TIME",
+          "description": "You will receive 2% discount off Usage & Supply charges when you pay your bill on-time",
+          "displayName": "Pay-on-time Discount",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.02"
+          }
+        }
+      ],
+      "variation": "We may update your solar feed-in, or your rates from time to time. We'll always notify you in writing prior to any change.",
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 8.2,
+                "unitPrice": "0.053"
+              },
+              {
+                "unitPrice": "0.053"
+              }
+            ],
+            "period": "P1D",
+            "description": "Step 1 of 249.42MJ per month assumes 365 days per year. Actual calculation based on an average of 8.20MJ per day.",
+            "displayName": "Peak Usage"
+          },
+          "displayName": "Gas Usage Winter",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.63",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 8.2,
+                "unitPrice": "0.053"
+              },
+              {
+                "unitPrice": "0.053"
+              }
+            ],
+            "period": "P1D",
+            "description": "Step 1 of 249.42MJ per month assumes 365 days per year. Actual calculation based on an average of 8.20MJ per day.",
+            "displayName": "Off Peak Usage"
+          },
+          "displayName": "Gas Usage Summer",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.63",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL",
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "BPAY"
+      ],
+      "coolingOffDays": 10,
+      "additionalFeeInformation": "Additional fees and charges may apply, please see: https://www.globirdenergy.com.au/legal/fees/"
+    },
+    "lastUpdated": "2025-09-25T14:05:24.840Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-09-26T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/globird/cds-au/v1/energy/plans/GLO1008638MRG1@EME"
+  }
+}

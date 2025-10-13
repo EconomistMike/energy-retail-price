@@ -1,0 +1,116 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "lumo",
+    "planId": "LU2642571MS@VEC",
+    "fuelType": "GAS",
+    "brandName": "Lumo Energy",
+    "geography": {
+      "distributors": [
+        "Multinet"
+      ],
+      "includedPostcodes": [
+        "3139",
+        "3775",
+        "3797",
+        "3799"
+      ]
+    },
+    "displayName": "Lumo Plus",
+    "gasContract": {
+      "terms": "Please visit www.lumoenergy.com.au/terms for full T&Cs applicable to this offer.",
+      "isFixed": false,
+      "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Regulatory Requirements. We will give you written notice of at least 5 business days prior to the variation.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This offer is available to small business customers currently within the Multinet Yarra Valley Town distribution zone. For more information contact 1300 115 866."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "04-30",
+          "startDate": "11-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 250,
+                "unitPrice": "0.0295"
+              },
+              {
+                "volume": 750,
+                "unitPrice": "0.028"
+              },
+              {
+                "volume": 500,
+                "unitPrice": "0.0265"
+              },
+              {
+                "volume": 3500,
+                "unitPrice": "0.0257"
+              },
+              {
+                "unitPrice": "0.0238"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Off Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.2029",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "10-31",
+          "startDate": "05-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 250,
+                "unitPrice": "0.0342"
+              },
+              {
+                "volume": 750,
+                "unitPrice": "0.0295"
+              },
+              {
+                "volume": 500,
+                "unitPrice": "0.0282"
+              },
+              {
+                "volume": 3500,
+                "unitPrice": "0.0272"
+              },
+              {
+                "unitPrice": "0.0268"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Peak",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.2029",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us. No exit fees."
+    },
+    "lastUpdated": "2025-05-08T03:30:21Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-05-14T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/lumo/cds-au/v1/energy/plans/LU2642571MS@VEC"
+  }
+}

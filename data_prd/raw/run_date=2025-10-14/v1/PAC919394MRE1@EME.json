@@ -1,0 +1,548 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "pacific-blue",
+    "planId": "PAC919394MRE1@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Pacific Blue Retail",
+    "geography": {
+      "distributors": [
+        "Essential Energy Far West",
+        "Essential Energy Standard",
+        "Essential Energy"
+      ],
+      "includedPostcodes": [
+        "2311",
+        "2312",
+        "2320",
+        "2321",
+        "2324",
+        "2329",
+        "2337",
+        "2338",
+        "2339",
+        "2340",
+        "2341",
+        "2342",
+        "2343",
+        "2344",
+        "2345",
+        "2346",
+        "2347",
+        "2350",
+        "2352",
+        "2353",
+        "2354",
+        "2355",
+        "2356",
+        "2357",
+        "2358",
+        "2359",
+        "2360",
+        "2361",
+        "2365",
+        "2369",
+        "2370",
+        "2371",
+        "2372",
+        "2379",
+        "2380",
+        "2381",
+        "2382",
+        "2386",
+        "2387",
+        "2388",
+        "2390",
+        "2395",
+        "2396",
+        "2397",
+        "2398",
+        "2399",
+        "2400",
+        "2401",
+        "2402",
+        "2403",
+        "2404",
+        "2405",
+        "2406",
+        "2408",
+        "2409",
+        "2410",
+        "2411",
+        "2415",
+        "2420",
+        "2421",
+        "2422",
+        "2423",
+        "2424",
+        "2425",
+        "2426",
+        "2427",
+        "2428",
+        "2429",
+        "2430",
+        "2431",
+        "2439",
+        "2440",
+        "2441",
+        "2443",
+        "2444",
+        "2445",
+        "2446",
+        "2447",
+        "2448",
+        "2449",
+        "2450",
+        "2452",
+        "2453",
+        "2454",
+        "2455",
+        "2456",
+        "2460",
+        "2462",
+        "2463",
+        "2464",
+        "2465",
+        "2466",
+        "2469",
+        "2470",
+        "2471",
+        "2472",
+        "2473",
+        "2474",
+        "2475",
+        "2476",
+        "2477",
+        "2478",
+        "2479",
+        "2480",
+        "2481",
+        "2482",
+        "2483",
+        "2484",
+        "2485",
+        "2486",
+        "2487",
+        "2488",
+        "2489",
+        "2490",
+        "2536",
+        "2537",
+        "2539",
+        "2545",
+        "2546",
+        "2548",
+        "2549",
+        "2550",
+        "2551",
+        "2577",
+        "2579",
+        "2580",
+        "2581",
+        "2582",
+        "2583",
+        "2584",
+        "2585",
+        "2586",
+        "2587",
+        "2588",
+        "2590",
+        "2594",
+        "2611",
+        "2618",
+        "2619",
+        "2620",
+        "2621",
+        "2622",
+        "2623",
+        "2624",
+        "2625",
+        "2626",
+        "2627",
+        "2628",
+        "2629",
+        "2630",
+        "2631",
+        "2632",
+        "2633",
+        "2640",
+        "2641",
+        "2642",
+        "2643",
+        "2644",
+        "2645",
+        "2646",
+        "2647",
+        "2648",
+        "2649",
+        "2650",
+        "2651",
+        "2652",
+        "2653",
+        "2655",
+        "2656",
+        "2658",
+        "2659",
+        "2660",
+        "2661",
+        "2663",
+        "2665",
+        "2666",
+        "2668",
+        "2669",
+        "2671",
+        "2672",
+        "2675",
+        "2678",
+        "2680",
+        "2681",
+        "2700",
+        "2701",
+        "2702",
+        "2703",
+        "2705",
+        "2706",
+        "2707",
+        "2710",
+        "2711",
+        "2712",
+        "2713",
+        "2714",
+        "2715",
+        "2716",
+        "2717",
+        "2720",
+        "2721",
+        "2722",
+        "2725",
+        "2726",
+        "2727",
+        "2729",
+        "2730",
+        "2731",
+        "2732",
+        "2733",
+        "2734",
+        "2735",
+        "2736",
+        "2737",
+        "2738",
+        "2739",
+        "2787",
+        "2790",
+        "2791",
+        "2792",
+        "2793",
+        "2794",
+        "2795",
+        "2797",
+        "2798",
+        "2799",
+        "2800",
+        "2803",
+        "2804",
+        "2805",
+        "2806",
+        "2807",
+        "2808",
+        "2809",
+        "2810",
+        "2817",
+        "2818",
+        "2820",
+        "2821",
+        "2822",
+        "2823",
+        "2824",
+        "2825",
+        "2826",
+        "2827",
+        "2828",
+        "2829",
+        "2830",
+        "2831",
+        "2832",
+        "2833",
+        "2834",
+        "2835",
+        "2836",
+        "2838",
+        "2839",
+        "2840",
+        "2842",
+        "2843",
+        "2844",
+        "2849",
+        "2850",
+        "2852",
+        "2864",
+        "2865",
+        "2866",
+        "2867",
+        "2868",
+        "2869",
+        "2870",
+        "2871",
+        "2873",
+        "2874",
+        "2875",
+        "2876",
+        "2877",
+        "2878",
+        "2879",
+        "2880",
+        "3644",
+        "3691",
+        "3707",
+        "4352",
+        "4357",
+        "4380",
+        "4382",
+        "4383",
+        "4384",
+        "4385",
+        "4387",
+        "4388",
+        "4390",
+        "4406",
+        "4422",
+        "4486",
+        "4487",
+        "4494",
+        "4496",
+        "4497",
+        "4498"
+      ]
+    },
+    "displayName": "Blue Home",
+    "lastUpdated": "2025-06-30T14:06:29.757Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-07-01T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "rate": "0.006",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "For payments made by MasterCard or Visa where we incur a merchant services fee. Not applicable to direct debit payments by credit card or debit card."
+        },
+        {
+          "rate": "0.0075",
+          "term": "PERCENT_OF_BILL",
+          "type": "OTHER",
+          "description": "For payments made by AMEX or any other payment where we incur a merchant services fee. Not applicable to direct debit payments by credit card or debit card."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "7.5",
+          "description": "This fee will apply if a direct debit, credit card or cheque payment is dishonoured or reversed."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "88.506",
+          "description": "$88.51 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "96.976",
+          "description": "$96.98 (inc. GST) Standard rates apply during business hours. Fees may vary and will be quoted on request."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00",
+          "description": "Usage aggregated according to Australian Eastern Standard Time (AEST). Your usage may be adjusted for local time (Australian Daylight Savings Time). Further information on our charges is available at: http://pacificblue.com.au/additional-charges"
+        }
+      ],
+      "terms": "This contract is ongoing and may be terminated by you or us in accordance with the terms of our Market Agreement. The full terms and conditions applicable to this offer are available at https://pacificblue.com.au/terms-and-conditions. For further information about this offer, our market terms or solar feed-in eligibility, call Pacific Blue Retail on 133 669.",
+      "isFixed": false,
+      "timeZone": "AEST",
+      "variation": "Prices are variable and may be varied by notice to you. We will provide you with information about any variations to your prices in accordance with Energy Laws. A network tariff change may be required if you have a solar system installed.",
+      "meterTypes": [
+        "Type 4",
+        "Type 4a",
+        "Type 5",
+        "Type 6"
+      ],
+      "pricingModel": "TIME_OF_USE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "displayName": "Time of Use Tariff Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.41",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "08:59",
+                  "startTime": "07:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "17:00"
+                }
+              ],
+              "description": "Mon - Fri, 07:00 - 09:00; Mon - Fri, 17:00 - 20:00",
+              "displayName": "Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.291",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "06:59",
+                  "startTime": "22:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "23:59",
+                  "startTime": "00:00"
+                }
+              ],
+              "description": "Mon - Fri, 22:00 - 07:00; Sat - Sun",
+              "displayName": "Off Peak"
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.386",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "16:59",
+                  "startTime": "09:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "21:59",
+                  "startTime": "20:00"
+                }
+              ],
+              "description": "Mon - Fri, 09:00 - 17:00; Mon - Fri, 20:00 - 22:00",
+              "displayName": "Shoulder"
+            }
+          ],
+          "dailySupplyCharge": "2.02",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M",
+        "P3M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "BPAY",
+        "PAPER_BILL"
+      ],
+      "controlledLoad": [
+        {
+          "endDate": "2025-12-31",
+          "startDate": "2025-01-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.17",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D",
+            "description": "Controlled Load",
+            "displayName": "Controlled Load",
+            "dailySupplyCharge": "0.00"
+          },
+          "displayName": "Controlled Load",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "endDate": "2030-03-31",
+          "payerType": "RETAILER",
+          "startDate": "2023-04-03",
+          "description": "Feed In Tariff | All kWh/day",
+          "displayName": "RFiT: Single Rate Solar FiT",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "volume": "0.00",
+                "unitPrice": "0.00",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D"
+          }
+        }
+      ],
+      "onExpiryDescription": "Our market agreement is ongoing and may be ended by you or us in accordance with the terms of our agreement.",
+      "additionalFeeInformation": "There are no exit fees associated with this offer. We may vary the Charges and fees at any time by notice to you, including by message on your bill. Details about Charges and fees are set out under the terms and conditions of your Market Agreement."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/pacific-blue/cds-au/v1/energy/plans/PAC919394MRE1@EME"
+  }
+}

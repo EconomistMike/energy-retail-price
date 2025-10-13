@@ -1,0 +1,235 @@
+{
+  "data": {
+    "type": "STANDING",
+    "brand": "solstice",
+    "planId": "SOL974573SBE1@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Solstice Energy",
+    "geography": {
+      "distributors": [
+        "TasNetworks"
+      ],
+      "includedPostcodes": [
+        "7000",
+        "7004",
+        "7005",
+        "7007",
+        "7008",
+        "7009",
+        "7010",
+        "7011",
+        "7012",
+        "7015",
+        "7016",
+        "7017",
+        "7018",
+        "7019",
+        "7020",
+        "7021",
+        "7022",
+        "7023",
+        "7024",
+        "7025",
+        "7026",
+        "7027",
+        "7030",
+        "7050",
+        "7052",
+        "7053",
+        "7054",
+        "7055",
+        "7109",
+        "7112",
+        "7113",
+        "7116",
+        "7117",
+        "7119",
+        "7120",
+        "7139",
+        "7140",
+        "7150",
+        "7155",
+        "7162",
+        "7163",
+        "7170",
+        "7171",
+        "7172",
+        "7173",
+        "7174",
+        "7175",
+        "7176",
+        "7177",
+        "7178",
+        "7179",
+        "7180",
+        "7182",
+        "7183",
+        "7184",
+        "7185",
+        "7186",
+        "7187",
+        "7190",
+        "7209",
+        "7210",
+        "7211",
+        "7212",
+        "7213",
+        "7214",
+        "7215",
+        "7216",
+        "7248",
+        "7249",
+        "7250",
+        "7252",
+        "7253",
+        "7254",
+        "7258",
+        "7259",
+        "7260",
+        "7261",
+        "7262",
+        "7263",
+        "7264",
+        "7265",
+        "7267",
+        "7268",
+        "7270",
+        "7275",
+        "7276",
+        "7277",
+        "7290",
+        "7291",
+        "7292",
+        "7300",
+        "7301",
+        "7302",
+        "7303",
+        "7304",
+        "7305",
+        "7306",
+        "7307",
+        "7310",
+        "7315",
+        "7316",
+        "7320",
+        "7321",
+        "7322",
+        "7325",
+        "7330",
+        "7331",
+        "7466",
+        "7467",
+        "7468",
+        "7469",
+        "7470"
+      ]
+    },
+    "displayName": "Standard Business Single Rate + Heating & Hot Water",
+    "lastUpdated": "2025-07-10T14:05:35.379Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-11T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "102.91",
+          "description": "Connection Fee, typically applies for move in requests."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "102.91",
+          "description": "Disconnection Fee, typically applies for move out requests."
+        }
+      ],
+      "terms": "For full terms and conditions, please go to www.solsticeenergy.com.au",
+      "isFixed": false,
+      "variation": "We will give you notice of any variation to the tariffs and/or charges that affect you at least 5 business days before the variation is to apply to you.",
+      "meterTypes": [
+        "Type 4",
+        "Type 4a",
+        "Type 6"
+      ],
+      "pricingModel": "SINGLE_RATE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "07-10",
+          "startDate": "07-11",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 500,
+                "unitPrice": "0.291808"
+              },
+              {
+                "unitPrice": "0.235061"
+              }
+            ],
+            "period": "P3M",
+            "description": "Tariff 22",
+            "displayName": "Tariff 22"
+          },
+          "displayName": "Calendar Year",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.144544",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M",
+        "P3M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL",
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "BPAY",
+        "OTHER"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.17667",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y",
+            "description": "Heating & Hot Water Tariff",
+            "displayName": "Tariff 41",
+            "dailySupplyCharge": "0.189738"
+          },
+          "displayName": "Tariff 41",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "payerType": "RETAILER",
+          "description": "Feed In Tariff",
+          "displayName": "Solstice Energy Feed in Tariff",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.10",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        }
+      ],
+      "onExpiryDescription": "Contract continues until terminated by you, or by us in accordance with our terms and conditions.",
+      "additionalFeeInformation": "No credit card fees or late payment fees are applicable."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/solstice/cds-au/v1/energy/plans/SOL974573SBE1@EME"
+  }
+}

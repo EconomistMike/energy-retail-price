@@ -1,0 +1,180 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "energyaustralia",
+    "planId": "TRU705349MR@VEC",
+    "fuelType": "GAS",
+    "brandName": "EnergyAustralia",
+    "geography": {
+      "distributors": [
+        "AusNet Services (gas)"
+      ],
+      "includedPostcodes": [
+        "3249",
+        "3250",
+        "3266",
+        "3277",
+        "3280",
+        "3282",
+        "3300",
+        "3305",
+        "3340",
+        "3342",
+        "3350",
+        "3351",
+        "3352",
+        "3355",
+        "3356",
+        "3357",
+        "3358",
+        "3401",
+        "3430",
+        "3437",
+        "3444",
+        "3450",
+        "3451",
+        "3460",
+        "3461",
+        "3462",
+        "3464",
+        "3465",
+        "3550",
+        "3551",
+        "3555",
+        "3556"
+      ]
+    },
+    "displayName": "Rate Fix (T3)",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "75.02",
+          "description": "Reconnection - Business hours"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "8.18",
+          "description": "Special Meter Read"
+        },
+        {
+          "rate": "0.0036",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+        },
+        {
+          "rate": "0.015",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "1.69",
+          "description": "Paper bill fee incl. GST per bill effective from 6 April 2020.  Refer to www.energyaustralia.com.au/home/help-and-support/faqs/paper-bill-fee for details."
+        }
+      ],
+      "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+      "isFixed": true,
+      "discounts": [
+        {
+          "type": "GUARANTEED",
+          "category": "OTHER",
+          "description": "Discount applies to market energy charges, and not to fees and other charges such as late payment fees or GreenPower.",
+          "displayName": "Guaranteed Discount",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.1"
+          }
+        }
+      ],
+      "variation": "",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "The details in this fact sheet are for residential customers located in the distribution area outlined with the meter configuration described."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.03674"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.03384"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.02991"
+              },
+              {
+                "unitPrice": "0.02739"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Winter Rates",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.373",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 100,
+                "unitPrice": "0.03045"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.03007"
+              },
+              {
+                "volume": 1200,
+                "unitPrice": "0.02897"
+              },
+              {
+                "unitPrice": "0.02644"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Non-Winter Rates",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.373",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your market contract is ongoing. Your contract will continue until it is ended by either party."
+    },
+    "lastUpdated": "2025-09-03T05:37:06Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-09-09T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU705349MR@VEC"
+  }
+}

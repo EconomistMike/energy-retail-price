@@ -1,0 +1,171 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "blue-nrg",
+    "planId": "BLU704281MS@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Blue NRG",
+    "geography": {
+      "distributors": [
+        "Citipower"
+      ],
+      "includedPostcodes": [
+        "3000",
+        "3002",
+        "3003",
+        "3004",
+        "3005",
+        "3006",
+        "3008",
+        "3010",
+        "3011",
+        "3031",
+        "3051",
+        "3052",
+        "3053",
+        "3054",
+        "3055",
+        "3056",
+        "3057",
+        "3065",
+        "3066",
+        "3067",
+        "3068",
+        "3070",
+        "3071",
+        "3078",
+        "3101",
+        "3102",
+        "3103",
+        "3104",
+        "3121",
+        "3122",
+        "3123",
+        "3124",
+        "3125",
+        "3126",
+        "3127",
+        "3129",
+        "3141",
+        "3142",
+        "3143",
+        "3144",
+        "3161",
+        "3181",
+        "3182",
+        "3183",
+        "3205",
+        "3206",
+        "3207"
+      ]
+    },
+    "displayName": "Blue Lightning 2025",
+    "lastUpdated": "2025-09-08T02:01:35Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-08-31T14:00:00Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CHEQUE_DISHONOUR",
+          "amount": "10.89",
+          "description": "Cheque dishonour payment fee"
+        },
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "10.89",
+          "description": "Direct debit dishonour payment fee"
+        },
+        {
+          "term": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "5.00",
+          "description": "Paper bill fee"
+        },
+        {
+          "rate": "0.0097",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card payment processing fee - AMEX"
+        },
+        {
+          "rate": "0.0097",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card payment processing fee - Visa/Mastercard"
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "49.32",
+          "description": "Disconnection fee"
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "48.60",
+          "description": "Reconnection fee"
+        }
+      ],
+      "terms": "Full terms & conditions can be obtained from https://www.bluenrg.com.au/terms-conditions/ or by contacting us on 1300 599 888. This offer applies to business customers with an applicable network tariff.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "We may vary these prices if network prices change. We will notify you in advance if the variation affects you.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This product is only applicable to NMIs for New Victorian business customers in the Citipower distribution area. Offer subject to having the necessary metering system configuration. For solar feed-in tariffs and eligibility contact us on 1300 599 888."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.2331"
+              }
+            ],
+            "description": "All consumption",
+            "displayName": "Rate"
+          },
+          "displayName": "All year",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.0327",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "Retailer Feed In Tariff",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.01"
+              }
+            ]
+          }
+        }
+      ],
+      "onExpiryDescription": "There is no defined benefit period."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/blue-nrg/cds-au/v1/energy/plans/BLU704281MS@VEC"
+  }
+}

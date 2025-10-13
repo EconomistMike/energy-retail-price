@@ -1,0 +1,135 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "energyaustralia",
+    "planId": "ENE211802MBG24@EME",
+    "fuelType": "GAS",
+    "brandName": "EnergyAustralia",
+    "geography": {
+      "distributors": [
+        "AGN Albury"
+      ],
+      "includedPostcodes": [
+        "2640",
+        "2641",
+        "2642"
+      ]
+    },
+    "displayName": "Business Balance Plan 12",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00",
+          "description": "$12.00 (GST does not currently apply to late payment fees)."
+        },
+        {
+          "rate": "0.0036",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+        },
+        {
+          "rate": "0.015",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "12.1",
+          "description": "A disconnection fee may apply  (incl. moving or reading your meter). Fees may vary and see additional fee information for details."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "110.00",
+          "description": "A reconnection fee may apply (incl. moving or reading your meter). Fees may vary and see additional fee information for details."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "12.1",
+          "description": "A connection fee may apply when you move into a property.  Fees may vary and see additional fee information for more details."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "16.72",
+          "description": "Connection or disconnection fee may apply when moving into or out of your property and connecting or disconnecting gas to your property (or reading your meter where applicable). Fees may vary and see additional fee information for details."
+        }
+      ],
+      "terms": "Please refer to our website www.energyaustralia.com.au for full terms and conditions.",
+      "isFixed": false,
+      "termType": "ONGOING",
+      "timeZone": "LOCAL",
+      "discounts": [
+        {
+          "type": "GUARANTEED",
+          "description": "Discount applies to market energy charges, and not to fees and other charges such as late payment fees or GreenPower.",
+          "displayName": "Guaranteed Discount",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.2"
+          }
+        }
+      ],
+      "variation": "Prices may be varied in line with your terms and conditions. We will give you notice before any new prices take effect.",
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 50,
+                "unitPrice": "0.03753"
+              },
+              {
+                "volume": 500,
+                "unitPrice": "0.03212"
+              },
+              {
+                "volume": 820,
+                "unitPrice": "0.03146"
+              },
+              {
+                "unitPrice": "0.02997"
+              }
+            ],
+            "period": "P1D",
+            "description": "Anytime",
+            "displayName": "Peak"
+          },
+          "displayName": "All year",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.971",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "benefitPeriod": "1 Year",
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL",
+        "DIRECT_DEBIT",
+        "BPAY",
+        "CREDIT_CARD"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "The Benefit Period for this plan is 12 months. We will provide you with notice of your options prior to the end of the Benefit Period. Your contract will continue until it is ended by either party.",
+      "additionalFeeInformation": "Additional fees and charges may apply. Please refer to www.energyaustralia.com.au/conditions-and-pricing/other-charges."
+    },
+    "lastUpdated": "2025-08-31T14:07:19.510Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-09-01T00:00:00.000Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/ENE211802MBG24@EME"
+  }
+}

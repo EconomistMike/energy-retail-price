@@ -1,0 +1,351 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "actewagl",
+    "planId": "ACT514491MBE11@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "ActewAGL",
+    "geography": {
+      "distributors": [
+        "Essential Energy Standard"
+      ],
+      "includedPostcodes": [
+        "2321",
+        "2337",
+        "2536",
+        "2537",
+        "2539",
+        "2545",
+        "2546",
+        "2548",
+        "2549",
+        "2550",
+        "2551",
+        "2580",
+        "2581",
+        "2582",
+        "2583",
+        "2584",
+        "2585",
+        "2586",
+        "2587",
+        "2594",
+        "2611",
+        "2618",
+        "2619",
+        "2620",
+        "2621",
+        "2622",
+        "2623",
+        "2624",
+        "2625",
+        "2626",
+        "2627",
+        "2628",
+        "2629",
+        "2630",
+        "2631",
+        "2632",
+        "2633",
+        "2720",
+        "2876",
+        "2877"
+      ]
+    },
+    "displayName": "Business Rewards TOU + CL - 14% off supply & usage",
+    "effectiveTo": "2026-07-01T00:00:00.000Z",
+    "lastUpdated": "2025-06-30T14:07:40.575Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-01T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "96.98",
+          "description": "Disconnection fee - applicable when energy is disconnected to the property."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "88.51",
+          "description": "Reconnection fee - applicable when energy is reconnected to the property."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "41.34",
+          "description": "Special meter read (including moving in and moving out of your supply address)."
+        },
+        {
+          "term": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00",
+          "description": "Late Payment Fee (GST is not applicable)."
+        },
+        {
+          "term": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "1.09",
+          "description": "Direct Debit Rejection Fee (GST is not applicable)."
+        },
+        {
+          "rate": "0.005",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Payment processing fee may apply to payments made by credit card (GST inclusive)."
+        },
+        {
+          "rate": "0.005",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "Payment processing fee may apply to payments made by debit card (GST inclusive)."
+        }
+      ],
+      "terms": "A copy of the Market Retail Contract is provided and can be seen on our website. Refer to https://www.actewagl.com.au/legal/pricing-information/your-rights-and-obligations.",
+      "isFixed": false,
+      "termType": "ONGOING",
+      "timeZone": "AEST",
+      "discounts": [
+        {
+          "type": "GUARANTEED",
+          "description": "All customers will receive a 14% discount off their electricity supply and usage charges, applied to each quarterly electricity invoice for a benefit period of 12 months. Discount does not apply to any Greenchoice electricity charges, or miscellaneous fees and charges; and will not apply to any government taxes, fees, levies or charges. For further information, refer to https://www.actewagl.com.au/NSW-Standard-electricity-prices-July-2025.",
+          "displayName": "Discount off supply and usage charges",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.14"
+          }
+        }
+      ],
+      "variation": "If we vary our market offer prices including your rates, fees, feed-in tariff or charges, we will notify you at least five business days before the variation in the tariffs and charges are to apply to you; and deliver the notice by your preferred form of communication where you have communicated this to us, or otherwise by the same method as that used for delivery of your bill.",
+      "meterTypes": [
+        "Type 4",
+        "Type 4a",
+        "Type 5",
+        "Type 6"
+      ],
+      "eligibility": [
+        {
+          "type": "NEW_CUSTOMER",
+          "description": "This offer is for new ActewAGL customers only."
+        },
+        {
+          "type": "ONLINE_ONLY",
+          "description": "Plan only available via retailer website sign-up."
+        }
+      ],
+      "pricingModel": "TIME_OF_USE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "displayName": "Usage Charges",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.5225",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "08:59",
+                  "startTime": "07:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "17:00"
+                }
+              ],
+              "description": "From 7am to 9am and 5pm to 8pm on weekdays",
+              "displayName": "Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.315",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "06:59",
+                  "startTime": "22:00"
+                },
+                {
+                  "days": [
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:59",
+                  "startTime": "07:00"
+                }
+              ],
+              "description": "At all other times",
+              "displayName": "Off-peak"
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.4785",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "16:59",
+                  "startTime": "09:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI"
+                  ],
+                  "endTime": "21:59",
+                  "startTime": "20:00"
+                }
+              ],
+              "description": "From 9am to 5pm and 8pm to 10pm on weekdays",
+              "displayName": "Shoulder"
+            }
+          ],
+          "dailySupplyCharge": "2.85",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "benefitPeriod": "12 months",
+      "billFrequency": [
+        "P3M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "PAPER_BILL",
+        "BPAY",
+        "OTHER"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.19",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D",
+            "description": "For 5 to 9 hours overnight on weekdays and extra hours on weekends",
+            "displayName": "Controlled Load 1",
+            "dailySupplyCharge": "0.1297"
+          },
+          "displayName": "Controlled Load 1",
+          "rateBlockUType": "singleRate"
+        },
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.19",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D",
+            "description": "For 10 to 18 hours per day on weekdays and extra hours on weekends",
+            "displayName": "Controlled Load 2",
+            "dailySupplyCharge": "0.00"
+          },
+          "displayName": "Controlled Load 2",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0066",
+              "percentGreen": "0.1"
+            },
+            {
+              "amount": "0.0165",
+              "percentGreen": "0.25"
+            },
+            {
+              "amount": "0.066",
+              "percentGreen": "1.0"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "Percentage-based option.",
+          "displayName": "Greenchoice"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "payerType": "RETAILER",
+          "description": "Retailer FiT (ex GST)",
+          "displayName": "Voluntary retailer buyback rate",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.044",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        }
+      ],
+      "onExpiryDescription": "The benefit period is 1 year. At the end of your benefit period you may be placed on a new pricing plan. We will notify you of any changes at least 20 business days before they take effect.",
+      "additionalFeeInformation": "For information on additional fees, refer to https://www.actewagl.com.au/legal/pricing-information/charges-and-rates."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/actewagl/cds-au/v1/energy/plans/ACT514491MBE11@EME"
+  }
+}

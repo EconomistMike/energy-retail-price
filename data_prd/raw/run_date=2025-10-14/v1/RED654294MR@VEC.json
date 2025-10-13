@@ -1,0 +1,97 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "red-energy",
+    "planId": "RED654294MR@VEC",
+    "fuelType": "GAS",
+    "brandName": "Red Energy",
+    "geography": {
+      "distributors": [
+        "Australian Gas Networks"
+      ],
+      "includedPostcodes": [
+        "3636",
+        "3640",
+        "3641",
+        "3644",
+        "3646",
+        "3683",
+        "3685",
+        "3687",
+        "3730"
+      ]
+    },
+    "displayName": "Living Energy Saver",
+    "gasContract": {
+      "terms": "Please visit www.redenergy.com.au/terms for full T&Cs applicable to this offer.",
+      "isFixed": false,
+      "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Opt-in to Offset Gas",
+          "displayName": "Opt-in to Offset Gas",
+          "eligibility": "Offset Gas is certified by Climate Active and is an opt-in natural gas product charged at an additional rate of 0.242 cents per MJ inc GST and may be varied or ended by notice under relevant laws. See www.redenergy.com.au/offset-gas"
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This offer is available to residential customers currently within the Australian Gas Network Murray Valley distribution zone. For more information contact 131 806."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "05-31",
+          "startDate": "10-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.0317"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Summer",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.79",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "09-30",
+          "startDate": "06-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.0317"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Winter",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.79",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+    },
+    "lastUpdated": "2025-06-09T22:17:02Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-06-16T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED654294MR@VEC"
+  }
+}

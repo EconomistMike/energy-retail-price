@@ -1,0 +1,157 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "energyaustralia",
+    "planId": "TRU705340MR@VEC",
+    "fuelType": "GAS",
+    "brandName": "EnergyAustralia",
+    "geography": {
+      "distributors": [
+        "Multinet"
+      ],
+      "includedPostcodes": [
+        "3139"
+      ]
+    },
+    "displayName": "VIC Seniors Offer (R9)",
+    "gasContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "57.20",
+          "description": "Reconnection - Business hours"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "8.80",
+          "description": "Special Meter Read"
+        },
+        {
+          "rate": "0.0036",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 0.36% for all payments with Visa or Mastercard."
+        },
+        {
+          "rate": "0.015",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "Credit card merchant service fee of 1.5% for all payments with American Express."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "1.69",
+          "description": "Paper bill fee incl. GST per bill effective from 6 April 2020.  Refer to www.energyaustralia.com.au/home/help-and-support/faqs/paper-bill-fee for details."
+        }
+      ],
+      "terms": "For full terms and conditions, please refer to our website www.energyaustralia.com.au.",
+      "isFixed": false,
+      "discounts": [
+        {
+          "type": "GUARANTEED",
+          "category": "OTHER",
+          "description": "Discount applies to market energy charges, and not to fees and other charges such as late payment fees or GreenPower.",
+          "displayName": "Guaranteed Discount",
+          "methodUType": "percentOfBill",
+          "percentOfBill": {
+            "rate": "0.22"
+          }
+        }
+      ],
+      "variation": "Prices may be varied in line with your terms and conditions. We will give you notice before any new prices take effect.",
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "The details in this fact sheet are for residential customers located in the distribution area outlined with the meter configuration described. Must be a VIC Seniors cardholder."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE",
+      "tariffPeriod": [
+        {
+          "endDate": "10-31",
+          "startDate": "05-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 50,
+                "unitPrice": "0.04348"
+              },
+              {
+                "volume": 50,
+                "unitPrice": "0.03841"
+              },
+              {
+                "volume": 50,
+                "unitPrice": "0.03361"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.03065"
+              },
+              {
+                "unitPrice": "0.03018"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Winter Rates",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.999",
+          "dailySupplyChargeType": "SINGLE"
+        },
+        {
+          "endDate": "04-30",
+          "startDate": "11-01",
+          "singleRate": {
+            "rates": [
+              {
+                "volume": 50,
+                "unitPrice": "0.04348"
+              },
+              {
+                "volume": 50,
+                "unitPrice": "0.03841"
+              },
+              {
+                "volume": 50,
+                "unitPrice": "0.03361"
+              },
+              {
+                "volume": 100,
+                "unitPrice": "0.03065"
+              },
+              {
+                "unitPrice": "0.03018"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Non-Winter Rates",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "0.999",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P2M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your market contract is ongoing. Your contract will continue until it is ended by either party."
+    },
+    "lastUpdated": "2025-09-03T05:37:05Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-09-09T14:00:00Z"
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1/energy/plans/TRU705340MR@VEC"
+  }
+}

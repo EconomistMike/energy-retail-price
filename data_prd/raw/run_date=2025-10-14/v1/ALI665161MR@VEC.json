@@ -1,0 +1,190 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "alinta",
+    "planId": "ALI665161MR@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Alinta Energy",
+    "geography": {
+      "distributors": [
+        "Jemena"
+      ],
+      "includedPostcodes": [
+        "3011",
+        "3012",
+        "3013",
+        "3015",
+        "3016",
+        "3019",
+        "3020",
+        "3023",
+        "3025",
+        "3031",
+        "3032",
+        "3033",
+        "3034",
+        "3036",
+        "3037",
+        "3038",
+        "3039",
+        "3040",
+        "3041",
+        "3042",
+        "3043",
+        "3044",
+        "3045",
+        "3046",
+        "3047",
+        "3048",
+        "3049",
+        "3051",
+        "3052",
+        "3058",
+        "3059",
+        "3060",
+        "3061",
+        "3062",
+        "3063",
+        "3064",
+        "3068",
+        "3070",
+        "3072",
+        "3073",
+        "3074",
+        "3076",
+        "3078",
+        "3079",
+        "3081",
+        "3083",
+        "3084",
+        "3085",
+        "3086",
+        "3087",
+        "3335",
+        "3336",
+        "3337",
+        "3340",
+        "3427",
+        "3428",
+        "3429",
+        "3430",
+        "3431",
+        "3437",
+        "3750",
+        "3753"
+      ]
+    },
+    "displayName": "SolarBalance Go - Single Rate + CL",
+    "lastUpdated": "2025-06-20T03:11:33Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-07-01T14:00:00Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "95.65",
+          "description": "Disconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee.\nWe reserve the right to and will notify you if we change or impose additional fees or charges in relation to your energy supply. Fees and charges charged by the distributor are published on your distributor’s website and may change from time to time."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "0.00",
+          "description": "Disconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.69",
+          "description": "Reconnection - On site. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "0.00",
+          "description": "Reconnection - Remote. This fee is passed through from your distributor and may vary. Please visit your distributor's website to find out the current fee."
+        }
+      ],
+      "terms": "Eligibility criteria apply, for terms and conditions see alintaenergy.com.au/termsandconditions or call 13 37 02.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "Alinta Energy's market tariff and feed in tariffs (where applicable) may be varied in accordance with applicable laws. If we change the applicable tariff, we will give you notice of any variations in accordance with applicable laws.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Solar Feed-in Tariff",
+          "displayName": "Solar Feed-in Tariff",
+          "eligibility": "This Energy Plan includes a stepped feed-in tariff, where you will receive a feed-in of 7c/kWh for the first 10kW exported. For any export after that you will obtain Alinta Energy’s standard retailer feed-in tariff of 0.04c/kWh."
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This Energy Plan is available to eligible residential solar customers with a Qualifying Solar System. Qualifying Solar System means a solar photovoltaic generator which has a generating capacity of no more than 10kW (or larger at our discretion)."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.2702"
+              }
+            ],
+            "period": "P1D",
+            "displayName": "Rate"
+          },
+          "displayName": "Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.1183",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.2104"
+              }
+            ],
+            "displayName": "Controlled Load"
+          },
+          "displayName": "",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "Current FIT",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.0004"
+              }
+            ]
+          }
+        }
+      ],
+      "onExpiryDescription": "This offer has no contract term."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/alinta/cds-au/v1/energy/plans/ALI665161MR@VEC"
+  }
+}

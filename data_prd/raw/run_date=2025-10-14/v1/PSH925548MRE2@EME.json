@@ -1,0 +1,431 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "powershop",
+    "planId": "PSH925548MRE2@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Powershop",
+    "geography": {
+      "distributors": [
+        "Energex"
+      ],
+      "includedPostcodes": [
+        "4000",
+        "4005",
+        "4006",
+        "4007",
+        "4008",
+        "4009",
+        "4010",
+        "4011",
+        "4012",
+        "4013",
+        "4014",
+        "4017",
+        "4018",
+        "4019",
+        "4020",
+        "4021",
+        "4022",
+        "4030",
+        "4031",
+        "4032",
+        "4034",
+        "4035",
+        "4036",
+        "4037",
+        "4051",
+        "4053",
+        "4054",
+        "4055",
+        "4059",
+        "4060",
+        "4061",
+        "4064",
+        "4065",
+        "4066",
+        "4067",
+        "4068",
+        "4069",
+        "4070",
+        "4073",
+        "4074",
+        "4075",
+        "4076",
+        "4077",
+        "4078",
+        "4101",
+        "4102",
+        "4103",
+        "4104",
+        "4105",
+        "4106",
+        "4107",
+        "4108",
+        "4109",
+        "4110",
+        "4111",
+        "4112",
+        "4113",
+        "4114",
+        "4115",
+        "4116",
+        "4117",
+        "4118",
+        "4119",
+        "4120",
+        "4121",
+        "4122",
+        "4123",
+        "4124",
+        "4125",
+        "4127",
+        "4128",
+        "4129",
+        "4130",
+        "4131",
+        "4132",
+        "4133",
+        "4151",
+        "4152",
+        "4153",
+        "4154",
+        "4155",
+        "4156",
+        "4157",
+        "4158",
+        "4159",
+        "4160",
+        "4161",
+        "4163",
+        "4164",
+        "4165",
+        "4169",
+        "4170",
+        "4171",
+        "4172",
+        "4173",
+        "4174",
+        "4178",
+        "4179",
+        "4183",
+        "4184",
+        "4205",
+        "4207",
+        "4208",
+        "4209",
+        "4210",
+        "4211",
+        "4212",
+        "4213",
+        "4214",
+        "4215",
+        "4216",
+        "4217",
+        "4218",
+        "4220",
+        "4221",
+        "4223",
+        "4224",
+        "4225",
+        "4226",
+        "4227",
+        "4228",
+        "4270",
+        "4271",
+        "4272",
+        "4275",
+        "4280",
+        "4285",
+        "4287",
+        "4300",
+        "4301",
+        "4303",
+        "4304",
+        "4305",
+        "4306",
+        "4307",
+        "4309",
+        "4310",
+        "4311",
+        "4312",
+        "4313",
+        "4314",
+        "4340",
+        "4341",
+        "4342",
+        "4343",
+        "4344",
+        "4346",
+        "4347",
+        "4350",
+        "4352",
+        "4359",
+        "4500",
+        "4501",
+        "4502",
+        "4503",
+        "4504",
+        "4505",
+        "4506",
+        "4507",
+        "4508",
+        "4509",
+        "4510",
+        "4511",
+        "4512",
+        "4514",
+        "4515",
+        "4516",
+        "4517",
+        "4518",
+        "4519",
+        "4520",
+        "4521",
+        "4550",
+        "4551",
+        "4552",
+        "4553",
+        "4554",
+        "4555",
+        "4556",
+        "4557",
+        "4558",
+        "4559",
+        "4560",
+        "4561",
+        "4562",
+        "4563",
+        "4564",
+        "4565",
+        "4566",
+        "4567",
+        "4568",
+        "4569",
+        "4570",
+        "4571",
+        "4572",
+        "4573",
+        "4574",
+        "4575",
+        "4580",
+        "4581"
+      ]
+    },
+    "displayName": "Power Offset",
+    "lastUpdated": "2025-09-08T14:09:31.645Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-09-09T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00",
+          "description": "Other fees may apply. Information is set out on our fees page: powershop.com.au/fees."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "0.00",
+          "description": "A manual disconnection fee"
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "0.00",
+          "description": "A manual connection fee"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00",
+          "description": "A move in read fee"
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00",
+          "description": "A move out read fee"
+        }
+      ],
+      "terms": "You must provide a preferred credit card or bank account, and you must ensure that the preferred payment method is kept up to date and valid. You agree to Powershop automatically debiting your preferred payment method for any outstanding amounts due. We offset all the carbon emissions associated with your energy usage. Further information in relation to this offer, see our terms and conditions at: powershop.com.au/terms-and-conditions",
+      "isFixed": false,
+      "timeZone": "AEST",
+      "variation": "We may vary your prices at any time in accordance with our regulatory requirements. If we vary your prices we'll give you advance notice, usually by email.",
+      "meterTypes": [
+        "Type 4",
+        "Type 4a"
+      ],
+      "pricingModel": "TIME_OF_USE",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "displayName": "Time of Use Tariff Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.384949",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1Y",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "20:59",
+                  "startTime": "16:00"
+                }
+              ],
+              "description": "4pm - 9pm on all days",
+              "displayName": "Peak"
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.258406",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1Y",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "23:59",
+                  "startTime": "21:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "10:59",
+                  "startTime": "00:00"
+                }
+              ],
+              "description": "9pm - 11am on all days",
+              "displayName": "Shoulder"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.240979",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1Y",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "15:59",
+                  "startTime": "11:00"
+                }
+              ],
+              "description": "All other times",
+              "displayName": "Off Peak"
+            }
+          ],
+          "dailySupplyCharge": "1.274152",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD"
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.055",
+              "percentGreen": "1.0"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "100% GreenPower for 5.5c/kWh inc. GST (no discounts apply to GreenPower charges). You can purchase as much, or as little, 100% GreenPower as you like.",
+          "displayName": "Green Power Charge"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "payerType": "RETAILER",
+          "description": "Retailer Feed-in Tariff",
+          "displayName": "Voluntary FIT",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.005",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        },
+        {
+          "scheme": "OTHER",
+          "payerType": "GOVERNMENT",
+          "description": "Government feed-in tariff",
+          "displayName": "Queensland Solar Bonus Scheme",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.49",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        }
+      ],
+      "onExpiryDescription": "This Powershop offer is an ongoing contract (until you or we end it) with no exit fees.",
+      "additionalFeeInformation": "Other fees may apply. Information is set out on our fees page: powershop.com.au/fees."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1/energy/plans/PSH925548MRE2@EME"
+  }
+}

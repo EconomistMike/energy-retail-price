@@ -1,0 +1,39 @@
+# --- R session & IDE files ---
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rapp.history
+.Rout
+.Rtmp/
+
+# --- renv cache (rebuildable) ---
+renv/library/
+renv/staging/
+renv/python/
+
+# --- targets cache (auto-generated) ---
+_targets/
+
+# --- pipeline outputs ---
+data_prd/
+
+# --- logs / raw downloads ---
+logs/
+*.log
+*.json
+*.parquet
+*.tmp
+*.zip
+
+# --- system / editor clutter ---
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.bak
+desktop.ini
+
+# --- secrets (if you ever add them) ---
+.env
+.env.*

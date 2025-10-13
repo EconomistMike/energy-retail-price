@@ -1,0 +1,164 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "red-energy",
+    "planId": "RED693576MR@VEC",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Red Energy",
+    "geography": {
+      "distributors": [
+        "Citipower"
+      ],
+      "includedPostcodes": [
+        "3000",
+        "3002",
+        "3003",
+        "3004",
+        "3005",
+        "3006",
+        "3008",
+        "3010",
+        "3011",
+        "3031",
+        "3051",
+        "3052",
+        "3053",
+        "3054",
+        "3055",
+        "3056",
+        "3057",
+        "3065",
+        "3066",
+        "3067",
+        "3068",
+        "3070",
+        "3071",
+        "3078",
+        "3101",
+        "3102",
+        "3103",
+        "3104",
+        "3121",
+        "3122",
+        "3123",
+        "3124",
+        "3125",
+        "3126",
+        "3127",
+        "3129",
+        "3141",
+        "3142",
+        "3143",
+        "3144",
+        "3161",
+        "3181",
+        "3182",
+        "3183",
+        "3205",
+        "3206",
+        "3207"
+      ]
+    },
+    "displayName": "Red Rotary D9815 Saver",
+    "lastUpdated": "2025-08-06T01:43:24Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-08-12T14:00:00Z",
+    "electricityContract": {
+      "terms": "Please visit www.redenergy.com.au/terms for full T&Cs applicable to this offer. Solar Feed-In T&Cs can be found at www.redenergy.com.au/solar-feed-in-tariffs. We will issue your bill at least quarterly, or if you have a Smart Meter, monthly, unless you have requested to be billed quarterly or your Smart Meter does not have active telecommunications.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "We may vary your rates in line with our Terms and Conditions and in accordance with the Relevant Laws. We will give you written notice of at least 5 business days prior to the variation.",
+      "incentives": [
+        {
+          "category": "OTHER",
+          "description": "Contributions to Rotary District 9815",
+          "displayName": "Contributions to Rotary District 9815",
+          "eligibility": "Red will contribute $5 to Rotary International District 9815 Incorporated (ABN 11 298 508 921) for each calendar month you are on the Red Rotary D9815 Saver electricity plan, starting from the date we become responsible for your electricity supply."
+        }
+      ],
+      "eligibility": [
+        {
+          "type": "OTHER",
+          "information": "This offer is available to residential customers currently within the Citipower distribution zone with applicable network tariff. For more information contact 131 806."
+        }
+      ],
+      "pricingModel": "SINGLE_RATE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "12-31",
+          "startDate": "01-01",
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.2235"
+              }
+            ],
+            "description": "Anytime",
+            "displayName": "Rate"
+          },
+          "displayName": "Period",
+          "rateBlockUType": "singleRate",
+          "dailySupplyCharge": "1.015",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M"
+      ],
+      "paymentOption": [
+        "PAPER_BILL"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.1718"
+              }
+            ],
+            "description": "Generally apply for 7 hours a day and the times are managed by your network (Hot water and/or slab heating only).",
+            "displayName": "Controlled Load"
+          },
+          "displayName": "Controlled Load",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.033",
+              "percentGreen": "1"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "Red Energy offers 100% GreenPower for an extra 3.3 cents per kWh. Please contact us on 131 806 for more information.",
+          "displayName": "GreenPower 100"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "CURRENT",
+          "payerType": "RETAILER",
+          "description": "Feed in Tariff",
+          "displayName": "Current FIT policy",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.01"
+              }
+            ]
+          }
+        }
+      ],
+      "onExpiryDescription": "Your contract is ongoing until it is ended by you or us."
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1/energy/plans/RED693576MR@VEC"
+  }
+}

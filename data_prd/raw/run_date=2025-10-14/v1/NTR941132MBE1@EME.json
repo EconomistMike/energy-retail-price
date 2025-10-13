@@ -1,0 +1,247 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "nectr",
+    "planId": "NTR941132MBE1@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Nectr",
+    "geography": {
+      "distributors": [
+        "Evoenergy"
+      ],
+      "includedPostcodes": [
+        "2600",
+        "2601",
+        "2602",
+        "2603",
+        "2604",
+        "2605",
+        "2606",
+        "2607",
+        "2609",
+        "2611",
+        "2612",
+        "2614",
+        "2615",
+        "2617",
+        "2618",
+        "2620",
+        "2900",
+        "2902",
+        "2903",
+        "2904",
+        "2905",
+        "2906",
+        "2911",
+        "2912",
+        "2913",
+        "2914"
+      ]
+    },
+    "displayName": "Nectr Business Business Buzz TOU + CL",
+    "lastUpdated": "2025-06-30T14:05:53.476Z",
+    "customerType": "BUSINESS",
+    "effectiveFrom": "2025-07-01T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "110.22",
+          "description": "This fee may apply when disconnecting power to your property. Additional charges may be incurred for after hours requests, site-visits and non-payment cases."
+        },
+        {
+          "term": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "112.44",
+          "description": "This fee may apply when reconnecting power to your property. Additional charges may be incurred for after hours requests or site-visits."
+        },
+        {
+          "term": "FIXED",
+          "type": "OTHER",
+          "amount": "49.93",
+          "description": "This fee may apply when a customer requests the network undertake a special meter read."
+        },
+        {
+          "rate": "0.013",
+          "term": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "description": "This fee applies to payments made by credit and debit cards, excluding direct debit."
+        },
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "49.93",
+          "description": "This fee may apply when you move into a property. A reconnection fee may apply if your move-in requires reconnection"
+        },
+        {
+          "term": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "0.88",
+          "description": "BPay payments incur a $0.88(inc GST) fee per transaction."
+        }
+      ],
+      "terms": "This offer is available to customers with an applicable network tariff. If you are not sure which network tariff you have, please contact us or sign up online to check this offer is available to you. Billing will be either monthly or quarterly, depending on your meter type. For more details on the terms and conditions, visit nectr.com.au/terms-and-conditions/#contracts, contact Nectr on hello@nectr.com.au or call 1300 111 211.",
+      "isFixed": false,
+      "timeZone": "LOCAL",
+      "variation": "We may vary your rates and charges by providing you notice of any changes at least 5 business days before they become effective.",
+      "meterTypes": [
+        "Type 0"
+      ],
+      "pricingModel": "TIME_OF_USE_CONT_LOAD",
+      "tariffPeriod": [
+        {
+          "endDate": "06-30",
+          "startDate": "07-01",
+          "displayName": "Time of Use Tariff Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.498326",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "08:59",
+                  "startTime": "07:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "17:00"
+                }
+              ],
+              "description": "7am-9am&5pm-8pm, All days",
+              "displayName": "Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.303329",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "06:59",
+                  "startTime": "22:00"
+                }
+              ],
+              "description": "10pm-7am, All days",
+              "displayName": "Off-peak"
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.389995",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1D",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "16:59",
+                  "startTime": "09:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:59",
+                  "startTime": "20:00"
+                }
+              ],
+              "description": "9am-5pm&8pm-10pm, All days",
+              "displayName": "Shoulder"
+            }
+          ],
+          "dailySupplyCharge": "1.707064",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "billFrequency": [
+        "P1M",
+        "P3M"
+      ],
+      "paymentOption": [
+        "DIRECT_DEBIT",
+        "CREDIT_CARD",
+        "BPAY"
+      ],
+      "controlledLoad": [
+        {
+          "singleRate": {
+            "rates": [
+              {
+                "unitPrice": "0.226186",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1D",
+            "description": "Hours of application are determined by your distributor, Energex. For more information, please contact your network distributor.",
+            "displayName": "Controlled Load",
+            "dailySupplyCharge": "0.00"
+          },
+          "displayName": "Controlled Load",
+          "rateBlockUType": "singleRate"
+        }
+      ],
+      "coolingOffDays": 10,
+      "onExpiryDescription": "Your contract is ongoing",
+      "additionalFeeInformation": "Additional fees and charges may apply. Please see the Nectr fee schedules at nectr.com.au/plans-and-fees/evoenergy/"
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/nectr/cds-au/v1/energy/plans/NTR941132MBE1@EME"
+  }
+}

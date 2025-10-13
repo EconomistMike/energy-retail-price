@@ -1,0 +1,321 @@
+{
+  "data": {
+    "type": "MARKET",
+    "brand": "origin",
+    "planId": "ORI833620MRE4@EME",
+    "fuelType": "ELECTRICITY",
+    "brandName": "Origin Energy",
+    "geography": {
+      "distributors": [
+        "Evoenergy"
+      ],
+      "includedPostcodes": [
+        "2600",
+        "2601",
+        "2602",
+        "2603",
+        "2604",
+        "2605",
+        "2606",
+        "2607",
+        "2609",
+        "2611",
+        "2612",
+        "2614",
+        "2615",
+        "2617",
+        "2618",
+        "2620",
+        "2900",
+        "2902",
+        "2903",
+        "2904",
+        "2905",
+        "2906",
+        "2911",
+        "2912",
+        "2913",
+        "2914"
+      ]
+    },
+    "displayName": "Origin Affinity Variable - Compare Club",
+    "lastUpdated": "2025-06-30T14:09:53.815Z",
+    "customerType": "RESIDENTIAL",
+    "effectiveFrom": "2025-07-01T00:00:00.000Z",
+    "electricityContract": {
+      "fees": [
+        {
+          "term": "FIXED",
+          "type": "CONNECTION",
+          "amount": "112.44",
+          "description": "A $112.44 (GST Incl) fee may apply when your property is reconnected (including when you move). Fee may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "110.22",
+          "description": "A $110.22 (GST Incl) fee may apply when your property is disconnected (including when you move). Fee may vary."
+        },
+        {
+          "term": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00",
+          "description": "A fee of $15.00 (GST exempt) may apply if your bill is not paid by the due date."
+        },
+        {
+          "rate": "0.0027",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.27% fee (GST Incl) may apply to payments made by VISA debit card."
+        },
+        {
+          "term": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.7",
+          "description": "If you pay at an Australia Post outlet, a payment processing fee of the higher of $2.70 or 0.49% (incl GST) may apply."
+        },
+        {
+          "term": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "2.15",
+          "description": "$2.15 (incl GST) may apply for each paper bill."
+        },
+        {
+          "rate": "0.0065",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.65% fee (GST Incl) may apply to payments made by VISA credit card."
+        },
+        {
+          "rate": "0.0033",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.33% fee (GST Incl) may apply to payments made by Mastercard debit card."
+        },
+        {
+          "rate": "0.0064",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.64% fee (GST Incl) may apply to payments made by American Express credit card."
+        },
+        {
+          "rate": "0.0067",
+          "term": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "description": "A 0.67% fee (GST Incl) may apply to payments made by Mastercard credit card."
+        }
+      ],
+      "terms": "Offer not available in all areas or properties connecting for first time. Residential customers only. Visit originenergy.com.au/2889/Terms-and-conditions for more.",
+      "isFixed": false,
+      "termType": "ONGOING",
+      "timeZone": "LOCAL",
+      "variation": "We may vary the Charges (including their amount, nature and structure) by notice to you at any time. The notice will be at least 5 business days prior to the effective date of the variation.",
+      "meterTypes": [
+        "Type 4",
+        "Type 4a",
+        "Type 5",
+        "Type 6"
+      ],
+      "eligibility": [
+        {
+          "type": "THIRD_PARTY_ONLY"
+        }
+      ],
+      "pricingModel": "TIME_OF_USE",
+      "tariffPeriod": [
+        {
+          "endDate": "07-07",
+          "startDate": "07-08",
+          "displayName": "Time of Use Tariff Period",
+          "rateBlockUType": "timeOfUseRates",
+          "timeOfUseRates": [
+            {
+              "type": "PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.3259",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1Y",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "08:59",
+                  "startTime": "07:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "19:59",
+                  "startTime": "17:00"
+                }
+              ],
+              "description": "7am-9am and 5pm-8pm All Days",
+              "displayName": "Peak"
+            },
+            {
+              "type": "OFF_PEAK",
+              "rates": [
+                {
+                  "unitPrice": "0.181",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1Y",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "06:59",
+                  "startTime": "22:00"
+                }
+              ],
+              "description": "All other times",
+              "displayName": "Off peak"
+            },
+            {
+              "type": "SHOULDER",
+              "rates": [
+                {
+                  "unitPrice": "0.2299",
+                  "measureUnit": "KWH"
+                }
+              ],
+              "period": "P1Y",
+              "timeOfUse": [
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "16:59",
+                  "startTime": "09:00"
+                },
+                {
+                  "days": [
+                    "MON",
+                    "TUE",
+                    "WED",
+                    "THU",
+                    "FRI",
+                    "SAT",
+                    "SUN"
+                  ],
+                  "endTime": "21:59",
+                  "startTime": "20:00"
+                }
+              ],
+              "description": "9am-5pm and 8pm-10pm All Days",
+              "displayName": "Shoulder"
+            }
+          ],
+          "dailySupplyCharge": "1.0312",
+          "dailySupplyChargeType": "SINGLE"
+        }
+      ],
+      "benefitPeriod": "12 months",
+      "billFrequency": [
+        "P3M",
+        "P1M"
+      ],
+      "paymentOption": [
+        "BPAY",
+        "CREDIT_CARD",
+        "DIRECT_DEBIT",
+        "PAPER_BILL",
+        "OTHER"
+      ],
+      "coolingOffDays": 10,
+      "greenPowerCharges": [
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0113",
+              "percentGreen": "0.25"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For 1.13 cents/kWh 25% of your electricity usage is matched with electricity from Government accredited GreenPower sources",
+          "displayName": "GreenPower"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.0225",
+              "percentGreen": "0.5"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For 2.25 cents/kWh 50% of your electricity usage is matched with electricity from Government accredited GreenPower sources",
+          "displayName": "GreenPower"
+        },
+        {
+          "type": "FIXED_PER_UNIT",
+          "tiers": [
+            {
+              "amount": "0.045",
+              "percentGreen": "1.0"
+            }
+          ],
+          "scheme": "GREENPOWER",
+          "description": "For 4.50 cents/kWh 100% of your electricity usage is matched with electricity from Government accredited GreenPower sources",
+          "displayName": "GreenPower"
+        }
+      ],
+      "solarFeedInTariff": [
+        {
+          "scheme": "OTHER",
+          "payerType": "RETAILER",
+          "description": "Origin offers 5 cents per kWh exported, subject to eligibility. All amounts are GST-inclusive (if any).",
+          "displayName": "Solar FIT",
+          "tariffUType": "singleTariff",
+          "singleTariff": {
+            "rates": [
+              {
+                "unitPrice": "0.05",
+                "measureUnit": "KWH"
+              }
+            ],
+            "period": "P1Y"
+          }
+        }
+      ],
+      "onExpiryDescription": "At the end of the benefit period we may extend your current Energy Plan or set you up with a new Energy Plan but only if we have written to you first and you havent told us not to",
+      "additionalFeeInformation": "You must pay us any charges your distributor imposes on us in relation to services performed by your distributor (or anyone else) at your supply address. For details on additional charges that may apply see www.originenergy.com.au/2402/Additional-charges"
+    }
+  },
+  "meta": {},
+  "links": {
+    "self": "https://cdr.energymadeeasy.gov.au/origin/cds-au/v1/energy/plans/ORI833620MRE4@EME"
+  }
+}
