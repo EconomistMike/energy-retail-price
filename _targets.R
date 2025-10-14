@@ -146,14 +146,31 @@ list(
     })
   }),
   
-  tar_target(solar_fit_list, {
-    purrr::map(details_list, function(d) {
-      core <- d$data; pid <- core$planId
-      out <- list(rates = tibble::tibble(), windows = tibble::tibble())
-      if (!is.null(core$electricityContract)) out <- purrr::list_merge(out, flatten_solar_fit(core$electricityContract, pid, "ELECTRICITY"))
-      out
-    })
-  }),
+  tar_target(
+    solar_fit_list,
+    {
+      purrr::map(details_list, function(d) {
+        core <- d$data; pid <- core$planId
+        
+        acc_rates   <- tibble::tibble()
+        acc_windows <- tibble::tibble()
+        
+        if (!is.null(core$electricityContract)) {
+          sf <- flatten_solar_fit(core$electricityContract, pid, "ELECTRICITY")
+          acc_rates   <- dplyr::bind_rows(acc_rates,   sf$rates)
+          acc_windows <- dplyr::bind_rows(acc_windows, sf$windows)
+        }
+        if (!is.null(core$gasContract)) {
+          # Most retailers don't publish FITs for gas (of course), but this keeps it symmetric
+          sf <- flatten_solar_fit(core$gasContract, pid, "GAS")
+          acc_rates   <- dplyr::bind_rows(acc_rates,   sf$rates)
+          acc_windows <- dplyr::bind_rows(acc_windows, sf$windows)
+        }
+        
+        list(rates = acc_rates, windows = acc_windows)  # always tibbles
+      })
+    }
+  ),
   tar_target(solar_fit_rates_df,   purrr::map_dfr(solar_fit_list, "rates")),
   tar_target(solar_fit_windows_df, purrr::map_dfr(solar_fit_list, "windows")),
   
