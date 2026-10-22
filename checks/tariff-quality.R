@@ -111,8 +111,18 @@ prd_tariff_issues <- function(tables, expected_contracts = NULL) {
         if (!is.list(days) || !is.null(dim(days)) || length(days) != nrow(df)) {
           add(family, NA_integer_, "days", "Expected a list of day-token vectors.")
         } else {
-          bad <- vapply(days, function(x) !is.character(x) || anyNA(x) ||
-            (family == "tou" && !length(x)) || !all(x %in% c("MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN", "PUBLIC_HOLIDAYS")), logical(1))
+          bad <- vapply(days, function(x) {
+            # simplifyVector=FALSE preserves JSON day arrays as lists. Accept
+            # only scalar strings, never coerce numbers or flatten deeper lists.
+            if (is.list(x) && is.null(dim(x))) {
+              scalar <- vapply(x, function(day) is.character(day) && is.null(dim(day)) &&
+                length(day) == 1L && !is.na(day), logical(1))
+              if (!all(scalar)) return(TRUE)
+              x <- vapply(x, function(day) day[[1L]], character(1), USE.NAMES = FALSE)
+            }
+            !is.character(x) || !is.null(dim(x)) || anyNA(x) ||
+              (family == "tou" && !length(x)) || !all(x %in% c("MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN", "PUBLIC_HOLIDAYS"))
+          }, logical(1))
           add_bad("days", bad, "Expected supported day tokens; TOU windows require at least one day.")
         }
       }

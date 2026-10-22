@@ -11,7 +11,12 @@ test_that("supported production flatteners preserve raw tariff amounts and schem
         list(days = c("MON", "TUE"), startTime = "22:00", endTime = "07:00")))),
     demandCharges = list(list(amount = "0.75", measureUnit = "KW", measurementPeriod = "MONTH",
       chargePeriod = "DAY", startTime = "16:00", endTime = "20:00", days = c("MON", "FRI"))))
-  tables <- prd$tidy_tariffs(list(tariffPeriod = list(period)), "invented-electricity", "ELECTRICITY")
+  # Match the production JSON parser: arrays remain lists of scalar tokens.
+  payload <- jsonlite::fromJSON(jsonlite::toJSON(list(tariffPeriod = list(period)),
+    auto_unbox = TRUE), simplifyVector = FALSE)
+  tables <- prd$tidy_tariffs(payload, "invented-electricity", "ELECTRICITY")
+  expect_identical(tables$tou$days[[1]], list("MON", "TUE"))
+  expect_identical(tables$demand$days[[1]], list("MON", "FRI"))
   expect_true(assert_prd_tariffs(tables))
   expect_equal(tables$supply$unit_price, "1.25")
   expect_equal(tables$single$unit_price, c("0.20", "0.30"))

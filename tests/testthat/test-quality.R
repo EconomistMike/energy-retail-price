@@ -156,3 +156,20 @@ test_that("unexpected-only contracts and complex numerics fail with diagnostics"
   x <- invented_tariffs(); x$supply$band_idx <- 1+1i
   expect_issue(x, "supply", "band_idx")
 })
+
+
+test_that("parser-shaped day lists reject malformed scalar tokens without coercion", {
+  for (family in c("tou", "demand")) {
+    x <- invented_tariffs(); x[[family]]$days <- list(list("MON", "TUE"))
+    expect_true(assert_prd_tariffs(x))
+    for (bad in list(list("FUNDAY"), list(NA_character_), list(1), list(TRUE),
+        list(NULL), list(c("MON", "TUE")), list(list("MON")))) {
+      x <- invented_tariffs(); x[[family]]$days <- list(bad)
+      expect_issue(x, family, "days")
+    }
+  }
+  x <- invented_tariffs(); x$tou$days <- list(list())
+  expect_issue(x, "tou", "days")
+  x <- invented_tariffs(); x$demand$days <- list(list())
+  expect_true(assert_prd_tariffs(x))
+})
