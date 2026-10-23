@@ -173,3 +173,44 @@ test_that("parser-shaped day lists reject malformed scalar tokens without coerci
   x <- invented_tariffs(); x$demand$days <- list(list())
   expect_true(assert_prd_tariffs(x))
 })
+
+
+test_that("all supported days pass in parser-shaped representations", {
+  for (family in c("tou", "demand")) {
+    for (day in c("MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN", "PUBLIC_HOLIDAYS")) {
+      for (representation in list(day, list(day))) {
+        x <- invented_tariffs()
+        x[[family]]$days <- list(representation)
+        expect_equal(nrow(prd_tariff_issues(x)), 0L, info = paste(family, day))
+      }
+    }
+  }
+})
+
+test_that("optional general unit prices distinguish missing from nonfinite values", {
+  for (valid in c(NA_real_, 0, -0.05, 1.25)) {
+    x <- invented_tariffs(); x$single$general_unit_price <- c(valid, NA_real_)
+    expect_equal(nrow(prd_tariff_issues(x)), 0L)
+  }
+  for (bad in c(NaN, Inf, -Inf)) {
+    x <- invented_tariffs(); x$single$general_unit_price <- c(bad, NA_real_)
+    issues <- prd_tariff_issues(x)
+    expect_equal(issues[c("table", "row", "field")],
+                 data.frame(table = "single", row = 1L, field = "general_unit_price"))
+    expect_error(assert_prd_tariffs(x), class = "prd_tariff_check_error")
+  }
+})
+
+test_that("BAND1.5 and other invalid supply indices receive precise issues", {
+  for (valid in c(1, 2)) {
+    x <- invented_tariffs(); x$supply$daily_type <- "BAND"; x$supply$band_idx <- valid
+    expect_equal(nrow(prd_tariff_issues(x)), 0L)
+  }
+  for (bad in c(1.5, 0, NA_real_, Inf)) {
+    x <- invented_tariffs(); x$supply$daily_type <- "BAND"; x$supply$band_idx <- bad
+    issues <- prd_tariff_issues(x)
+    expect_equal(issues[c("table", "row", "field")],
+                 data.frame(table = "supply", row = 1L, field = "band_idx"))
+    expect_error(assert_prd_tariffs(x), class = "prd_tariff_check_error")
+  }
+})
